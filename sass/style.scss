@@ -1,0 +1,25 @@
+// 基本樣式
+@import 'base/reset';
+@import 'base/var';
+
+
+// 組件
+@import 'component/btn';
+@import 'component/card';
+@import 'component/form';
+@import 'component/input';
+@import 'component/table';
+@import 'component/title';
+
+// layout
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/nav';
+@import 'layout/popup';
+
+// page
+
+
+p{
+    font-size: $PC_h1;
+}
