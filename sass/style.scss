@@ -1,7 +1,8 @@
 // 基本樣式
 @import 'base/reset';
+@import 'base/colors';
+@import 'base/font';
 @import 'base/var';
-
 
 // 組件
 @import 'component/btn';
@@ -17,7 +18,6 @@
 @import 'layout/nav';
 @import 'layout/popup';
 
-// page
 
 
 p{

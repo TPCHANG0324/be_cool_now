@@ -1,9 +1,11 @@
 .btn{
-    border-radius: 30px;
+    border-radius: $btn_radius;
     padding: 12px 24px;
     width: 100%;
     text-align: center;
-    &-default{
-        background-color: #D0AD44;
-    }
+    background-color: $Yellow_1;
+    cursor: pointer;
+    // &-default{
+    //     background-color: $Yellow_1;
+    // }
 }
