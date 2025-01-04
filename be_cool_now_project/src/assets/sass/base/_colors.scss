@@ -25,6 +25,12 @@ $Yellow_1: #d0ad44;
    
 
 //Font Color
-$title_1: #545454;
-$title_2: #558c32;
-$content: #eeeeee;
+// $title_1: #545454;
+// $title_2: #558c32;
+// $content: #eeeeee;
+
+
+// 文字框線
+@mixin text_stroke {
+    -webkit-text-stroke: .5px $Green_1;   
+}

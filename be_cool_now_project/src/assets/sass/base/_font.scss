@@ -1,0 +1,45 @@
+// 文字樣式
+$font_family:'DM Sans, sans-serif';
+
+// 文字大小
+$PC_h1: 4rem; // 64px
+
+$PC_h2: 3.5rem; // 56px
+
+$PC_h3: 1.5rem; // 24px
+
+$PC_h4: 1.25rem; // 20px
+
+$PC_h5: 1.125rem; // 18px
+
+$PC_h6: 1rem; // 16px
+
+// 文字行高
+$line_height_140: 140%;
+$line_height_120: 120%;
+$line_height_100: 100%;
+
+// 文字粗細度
+$font_weight_Bold:bold;
+$font_weight_regular:normal;
+
+
+
+@mixin banner_title{
+    font-size: $PC_h1;
+    line-height: $line_height_140;
+    font-weight: $font_weight_Bold;
+    font-family: $font_family;
+    color: $Ivory_white;
+    @include text_stroke;
+}
+
+
+@mixin text_content{
+    font-size: $PC_h3;
+    line-height: $line_height_120;
+    font-weight: $font_weight_regular;
+    font-family: $font_family;
+    color: $Ivory_white;
+}
+

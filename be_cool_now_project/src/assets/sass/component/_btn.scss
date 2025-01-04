@@ -5,7 +5,17 @@
     text-align: center;
     background-color: $Yellow_1;
     cursor: pointer;
+    border: none;
     // &-default{
     //     background-color: $Yellow_1;
     // }
+    &:hover{
+        background-color: $Gray_1;
+        color: $Yellow_1;
+    }
+
+    &-SpB_addCart_btn{
+        background-color: transparent;
+        border: 1px solid $Green_2;
+    }
 }
