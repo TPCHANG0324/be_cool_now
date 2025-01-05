@@ -1,21 +1,12 @@
-.btn{
-    border-radius: $btn_radius;
-    padding: 12px 24px;
-    width: 100%;
-    text-align: center;
-    background-color: $Yellow_1;
-    cursor: pointer;
-    border: none;
-    // &-default{
-    //     background-color: $Yellow_1;
-    // }
-    &:hover{
-        background-color: $Gray_1;
-        color: $Yellow_1;
-    }
 
-    &-SpB_addCart_btn{
-        background-color: transparent;
-        border: 1px solid $Green_2;
+// 按鈕 class
+.btn{
+    @include btn_style($btn_radius_30px, 100%);
+
+    &-SpB_addCart{
+        color: $Ivory_white;
+        background-color: $init;
+        @include border($Ivory_white);
+        box-shadow: $box_shadow;
     }
 }

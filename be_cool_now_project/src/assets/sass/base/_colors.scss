@@ -8,6 +8,7 @@ $Green_4: #cbe1D2;
 //Background Color 主要背景色
 $Light_Green: #e6eccc;
 
+$bgc_color: $Light_Green; // 背景色;
 
 //Second Color 應用在文字、線段、色塊等顏色
 $Gray_1: #545454;
@@ -29,8 +30,5 @@ $Yellow_1: #d0ad44;
 // $title_2: #558c32;
 // $content: #eeeeee;
 
-
-// 文字框線
-@mixin text_stroke {
-    -webkit-text-stroke: .5px $Green_1;   
-}
+// 透明度
+$init : initial;

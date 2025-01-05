@@ -54,20 +54,29 @@ table {
 
 .btn {
   border-radius: 30px;
-  padding: 12px 24px;
   width: 100%;
+  padding: 12px 24px;
   text-align: center;
   background-color: #d0ad44;
   cursor: pointer;
   border: none;
+  font-size: 1.25rem;
+  line-height: 120%;
+  font-weight: bold;
+  font-family: "DM Sans, sans-serif";
+  color: #fffff0;
+  line-height: 100%;
 }
 .btn:hover {
-  background-color: #545454;
-  color: #d0ad44;
+  color: #5b774a;
+  opacity: 0.8;
+  transition: opacity 0.8s;
 }
-.btn-SpB_addCart_btn {
-  background-color: transparent;
-  border: 1px solid #2e4e3f;
+.btn-SpB_addCart {
+  color: #fffff0;
+  background-color: initial;
+  border: 0.5px solid #fffff0;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
 }
 
 .fa-circle-check {
@@ -82,7 +91,7 @@ header {
   font-weight: bold;
   text-align: center;
   margin: 10px auto 20px auto;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .AcB_card {
@@ -98,6 +107,7 @@ header {
 .AcB_card img {
   max-width: 100%;
   border-radius: 5px;
+  margin-bottom: 15px;
 }
 .AcB_card h1 {
   color: #fffff0;
@@ -106,8 +116,8 @@ header {
 }
 .AcB_card article {
   color: #fffff0;
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 140%;
   margin-bottom: 20px;
 }
 .AcB_card button {
@@ -116,7 +126,7 @@ header {
   padding: 10px 20px;
   border-radius: 5px;
   border: 0.5px solid #fffff0;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -131,6 +141,10 @@ header {
   padding: 0;
 }
 
+body {
+  background-color: #545454;
+}
+
 p {
   font-size: 4rem;
   line-height: 140%;
@@ -138,7 +152,9 @@ p {
   font-family: "DM Sans, sans-serif";
   color: #fffff0;
   -webkit-text-stroke: 0.5px #5b774a;
-  -webkit-text-stroke: 0.5px #5b774a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

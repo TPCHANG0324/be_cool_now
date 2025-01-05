@@ -1,8 +1,12 @@
 // 基本樣式
 @import 'base/reset';
+@import 'base/space';
 @import 'base/colors';
 @import 'base/font';
 @import 'base/var';
+
+// 工具
+@import 'mixin/mixin';
 
 // 組件
 @import 'component/btn';
@@ -10,10 +14,11 @@
 @import 'component/form';
 @import 'component/input';
 @import 'component/table';
-@import 'component/title';
+@import 'component/block';
 
 // layout
 @import 'layout/header';
+@import 'layout/body';
 @import 'layout/footer';
 @import 'layout/nav';
 @import 'layout/popup';
@@ -26,7 +31,12 @@
 }
 
 
+body{
+    background-color: $Gray_1;
+    
+}
+
 p{
-    @include banner_title;
-    @include text_stroke;
+    @include PC_h1;
+    @include center;
 }
