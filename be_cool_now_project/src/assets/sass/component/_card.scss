@@ -4,14 +4,14 @@
   background-color: $Green_1;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 32%;
+  width: 100%;
   max-width: 400px;
   padding: 8px 0 36px 0;
   margin-top: 0px;
   text-align: center;
 
   header {
-    background-color: $Green_1;
+    background-color: initial;
     color: $Ivory_white;
     width: 100%;
     font-weight: $font_weight_Bold;
@@ -42,4 +42,8 @@
     padding: 0 16px;
     text-align: left;
   }
+}
+
+.darkGreen_card{
+  background-color: $Green_2;
 }

@@ -1,3 +1,5 @@
+
+
 .hero-section {
     position: relative;
     width: 100%;
@@ -24,24 +26,17 @@
         color:$Ivory_white;
 
         h1 {
-            font-size: $h1;
-            line-height: $line_height_140;
-            font-weight: $font_weight_Bold;
-            font-family: $font_family;
-            color: $Ivory_white;
-            @include stroke;
+            @include PC_h1($Ivory_white);
+            @include h1_stroke;
         }
 
         h2 {
-            font-size: 48px;
-            line-height: $line_height_140;
-            font-weight: $font_weight_Bold;
-            font-family: $font_family;
-            color: $Ivory_white;
-            @include stroke;
+            @include PC_h2($Ivory_white);
+            @include h1_stroke;
         }
     }
 }
+
 
 h3{
     text-align: center;
@@ -53,6 +48,18 @@ h3{
     margin-top: 20px;
 }
 
+.daily_card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); // 保持一列三張
+    gap: 2rem; // 卡片之間的間距
+    justify-content: center; // 整個容器水平置中
+    align-items: start; // 卡片內容頂對齊
+    padding: 2rem;
+    max-width: 1200px; // 限制最大寬度，讓內容居中更明顯
+    margin: 0 auto; // 將整個 `.daily_card` 容器置中
+}
+
+/*
 .fa-circle-check{
     padding-right: 10px;
 }
@@ -71,16 +78,7 @@ margin: 10px auto 20px auto;
 font-size: $h3;
 }
 
-.daily_card{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); // 保持一列三張
-    gap: 4rem; // 卡片之間的間距
-    justify-content: center; // 整個容器水平置中
-    align-items: start; // 卡片內容頂對齊
-    padding: 2rem;
-    max-width: 1200px; // 限制最大寬度，讓內容居中更明顯
-    margin: 0 auto; // 將整個 `.daily_card` 容器置中
-}
+
 
 .AcB_card {
     background-color: $Green_1;
@@ -92,6 +90,10 @@ font-size: $h3;
     width: 100%; // 使用100%讓卡片跟隨grid自動調整
     max-width: 350px; // 每張卡片的最大寬度，讓三張卡片平均分布
     }
+
+    */
+
+
     .AcB_card2 {
         background-color: $Green_2;
         border-radius: 10px;

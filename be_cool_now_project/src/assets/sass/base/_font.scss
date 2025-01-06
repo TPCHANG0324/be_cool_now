@@ -41,7 +41,7 @@ $font_weight_regular:normal;
     font-weight: $font_weight_Bold;
     font-family: $font_family;
     color: $color;
-    @include stroke;
+    // @include stroke;
 }
 
 // 56px 次標題文字(無文字邊框)
