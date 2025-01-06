@@ -1,17 +1,19 @@
 
 //---------------------------- 按鈕 class ------------------------------//
-// btn_style(圓角, 寬度)
+// btn_style(圓角, 寬度, 高度)
 
 .btn{
-    @include btn_style(5px, 60%);
+    @include btn_style(5px, 100%, 48px);
 
     // 永續行動, 我也完成+1 按鈕
     &-Ac_done_btn {
+            height: 48px;
             margin-top: 20px;
             font-size: $h6;
             transition: background-color 0.3s;
             background-color: $init;
             padding: 16px 24px;
+            width: 60%;
             @include border($Ivory_white);
     
             &:hover {
