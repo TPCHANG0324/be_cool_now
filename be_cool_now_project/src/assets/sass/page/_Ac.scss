@@ -505,22 +505,20 @@ font-size: $h3;
 // 整體卡片容器
 .carbon-reduction-card {
     display: flex;
-    // justify-content: space-between;
     align-items: center;
     background-color: #5e7749;
     border-radius: 20px;
     padding: 36px;
-    // max-width: 1200px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    gap: 32px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 1200px;
     margin: 0 auto;
-
+    justify-content: center;
+    padding-right: 32px;
 
     // 文字區塊樣式
     .text-content {
         color: white;
-        max-width: 50%;
+        max-width: 60%;
 
         h1 {
             font-size: 48px;
@@ -555,7 +553,8 @@ font-size: $h3;
 
     // 圖片區塊樣式
     .image-content {
-        max-width: 50%;
+        max-width: 40%;
+        margin-left: 32px;
         img {
             width: 100%;
             border-radius: 20px;
