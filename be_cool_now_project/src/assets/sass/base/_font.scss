@@ -17,6 +17,8 @@ $h5: 1.125rem; // 18px
 
 $h6: 1rem; // 16px
 
+$h7: 0.875rem; // 14px
+
 //------------------------------------------------------------------------------//
 //-------------------------------- 文字行高 -------------------------------------//
 
@@ -41,7 +43,6 @@ $font_weight_regular:normal;
     font-weight: $font_weight_Bold;
     font-family: $font_family;
     color: $color;
-    // @include stroke;
 }
 
 // 56px 次標題文字(無文字邊框)
@@ -84,6 +85,15 @@ $font_weight_regular:normal;
 @mixin PC_h6($color){
     font-size: $h6;
     line-height: $line_height_120;
+    font-weight: $font_weight_regular;
+    font-family: $font_family;
+    color: $color;
+}
+
+// 14px
+@mixin PC_h7($color){
+    font-size: $h7;
+    line-height: $line_height_100;
     font-weight: $font_weight_regular;
     font-family: $font_family;
     color: $color;

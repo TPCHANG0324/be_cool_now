@@ -23,6 +23,7 @@
 @import 'layout/nav';
 @import 'layout/popup';
 
+@import 'page/_Ic.scss';
 
 // page
 @import 'page/Ac';
@@ -35,11 +36,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 body{
-    background-color: $bgc_color;
-    max-width: $body_layout;
-    margin: 0 auto;
+    background-color: $Light_Green;
+    
 }
+
 
