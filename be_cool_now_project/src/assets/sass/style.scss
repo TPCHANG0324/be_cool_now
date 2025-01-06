@@ -23,20 +23,19 @@
 @import 'layout/nav';
 @import 'layout/popup';
 
+@import 'page/_Ic.scss';
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 
 body{
-    background-color: $Gray_1;
+    background-color: $Light_Green;
     
 }
 
-p{
-    @include PC_h1;
-    @include center;
-}
+
