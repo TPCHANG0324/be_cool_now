@@ -1,14 +1,14 @@
-// 基本樣式
+// base 基本樣式
 @import 'base/reset';
 @import 'base/space';
 @import 'base/colors';
 @import 'base/font';
 @import 'base/var';
 
-// 工具
+// mixin 工具
 @import 'mixin/mixin';
 
-// 組件
+// component 組件
 @import 'component/btn';
 @import 'component/card';
 @import 'component/form';
@@ -24,8 +24,9 @@
 @import 'layout/popup';
 
 
-//page
+// page
 @import 'page/Ac';
+@import 'page/Fp';
 
 
 * {
@@ -34,13 +35,8 @@
     padding: 0;
 }
 
-
 body{
-    background-color: $Gray_1;
-    
+    background-color: $bgc_color;
+    max-width: $body_layout;
 }
 
-p{
-    @include PC_h1;
-    @include center;
-}

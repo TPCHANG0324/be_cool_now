@@ -1,65 +1,45 @@
 
-.fa-circle-check{
-    padding-right: 10px;
-}
-
-
-header {
-  background-color: $Green_1;
-  color: $Ivory_white;
-  width: 100%;
-//   padding: 10px 0px;
-  text-align: center;
-  font-weight: $font_weight_Bold;
-  text-align: center;
-//   border-radius: 10px;
-margin: 10px auto 20px auto;
-font-size: $h3;
-}
 
 .AcB_card {
   background-color: $Green_1;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 27%;
-  max-width: 600px;
-  padding: 20px;
+  width: 32%;
+  max-width: 400px;
+  padding: 8px 0 36px 0;
   margin-top: 0px;
   text-align: center;
 
-  
+  header {
+    background-color: $Green_1;
+    color: $Ivory_white;
+    width: 100%;
+    font-weight: $font_weight_Bold;
+    text-align: center;
+    margin: 0 auto 8px;
+    @include PC_h3($Ivory_white);
+
+    .fa-circle-check {
+      padding-right: 4px;
+    }
+  }
+
   img {
     max-width: 100%;
-    border-radius: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
-  
-  h1 {
+
+  h3 {
     color: $Ivory_white;
-    font-size: 24px;
-    margin-bottom: 20px;
+    @include PC_h3($Ivory_white);
+    margin-bottom: 33px;
   }
 
   article {
     color: $Ivory_white;
     font-size: $h6;
     line-height: $line_height_140;
-    margin-bottom: 20px;
-  }
-
-  button {
-    background-color: $Green_1;
-    color: $Ivory_white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border:.5px solid $Ivory_white;
-    font-size: $h6;
-    font-weight: $font_weight_Bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-
-    &:hover {
-      background-color: darken($Green_1, 10%);
-    }
+    padding: 0 16px;
+    text-align: left;
   }
 }
