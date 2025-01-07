@@ -67,14 +67,15 @@ table {
   border-radius: 5px;
   width: 100%;
   height: 48px;
-  padding: 12px 24px;
+  padding: 16px 12px;
   text-align: center;
   background-color: #d0ad44;
   cursor: pointer;
   border: none;
+  box-shadow: 1px 1px 4px 0px rgba(84, 84, 84, 0.5);
   font-size: 1.25rem;
   line-height: 120%;
-  font-weight: bold;
+  font-weight: normal;
   font-family: "DM Sans, Noto Sans";
   color: #fffff0;
   line-height: 100%;
@@ -102,7 +103,7 @@ table {
   color: #fffff0;
   background-color: initial;
   border: 0.5px solid #fffff0;
-  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 4px 0px rgba(84, 84, 84, 0.5);
 }
 
 .AcB_card {
@@ -170,7 +171,7 @@ table {
   border-radius: 5px;
   font-size: 1.25rem;
   line-height: 120%;
-  font-weight: bold;
+  font-weight: normal;
   font-family: "DM Sans, Noto Sans";
   color: #2e4e3f;
   padding: 16px;
@@ -339,6 +340,270 @@ swiper-slide {
   border-radius: 4px;
   margin: 0 10px;
   font-size: 13px;
+}
+
+.Fp_Header_H {
+  width: 100%;
+  height: 80px;
+  border: 1px solid blue;
+  text-align: center;
+  font-size: 4rem;
+  line-height: 140%;
+  font-weight: bold;
+  font-family: "DM Sans, Noto Sans";
+  color: #d0ad44;
+  line-height: 80px;
+  position: fixed;
+  z-index: 999;
+}
+
+.Fp_Banner_H {
+  background-image: url(../images/Fp01.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+.Fp_Banner_H header {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 15%;
+  display: flex;
+}
+.Fp_Banner_H header article:first-of-type {
+  margin-bottom: 0;
+  margin: 240px 0 0 160px;
+  width: 30%;
+}
+.Fp_Banner_H header article:first-of-type h2 {
+  font-size: 2rem;
+  line-height: 140%;
+  color: #fffff0;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(84, 84, 84, 0.5);
+}
+.Fp_Banner_H header article:first-of-type a {
+  margin: 0 auto;
+  display: block;
+  text-decoration: none;
+  margin-top: 20px;
+  padding: 0;
+  border-radius: 30px;
+  width: 55%;
+  height: 48px;
+  padding: 16px 12px;
+  text-align: center;
+  background-color: #d0ad44;
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 1px 4px 0px rgba(84, 84, 84, 0.5);
+  font-size: 1.25rem;
+  line-height: 120%;
+  font-weight: normal;
+  font-family: "DM Sans, Noto Sans";
+  color: #fffff0;
+  line-height: 100%;
+  line-height: 16px;
+}
+.Fp_Banner_H header article:first-of-type a:hover {
+  color: #5b774a;
+  opacity: 0.8;
+  transition: opacity 0.8s;
+}
+.Fp_Banner_H header article:last-of-type {
+  width: 32%;
+  margin: 0 80px;
+  font-size: 4rem;
+  line-height: 140%;
+  font-weight: bold;
+  font-family: "DM Sans, Noto Sans";
+  color: #fffff0;
+}
+.Fp_Banner_H header article:last-of-type h1:first-of-type {
+  font-size: 6rem;
+  width: 100%;
+  text-shadow: 1px 1px 4px rgba(84, 84, 84, 0.5);
+  line-height: 120%;
+}
+.Fp_Banner_H header article:last-of-type h1:last-of-type {
+  font-size: 6rem;
+  text-align: end;
+  width: 100%;
+  text-shadow: 1px 1px 4px rgba(84, 84, 84, 0.5);
+  line-height: 120%;
+}
+
+.Fp_disaster_H {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/Fp07.png");
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.Fp_textContent_H {
+  width: 38%;
+  margin: 24% auto auto 8%;
+}
+.Fp_textContent_H h1 {
+  font-size: 4rem;
+  line-height: 140%;
+  font-weight: bold;
+  font-family: "DM Sans, Noto Sans";
+  color: #fffff0;
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(84, 84, 84, 0.5);
+}
+.Fp_textContent_H h2 {
+  font-size: 4rem;
+  line-height: 140%;
+  font-weight: bold;
+  font-family: "DM Sans, Noto Sans";
+  color: #545454;
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(84, 84, 84, 0.5);
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.Fp_textContent_H p {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  line-height: 140%;
+  font-weight: normal;
+  font-family: "DM Sans, Noto Sans";
+  color: #fffff0;
+  text-shadow: 1px 1px 4px rgba(84, 84, 84, 0.5);
+}
+.Fp_textContent_H span {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  line-height: 140%;
+  font-weight: normal;
+  font-family: "DM Sans, Noto Sans";
+  color: #545454;
+  text-shadow: 1px 1px 4px rgba(84, 84, 84, 0.5);
+}
+
+.Fp_globalWarming_H {
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  z-index: 2;
+}
+.Fp_globalWarming_H figure {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Fp_globalWarming_H figure img {
+  width: 67%;
+  position: sticky;
+  top: 120px;
+  margin-bottom: 120px;
+}
+.Fp_globalWarming_H article {
+  width: 50%;
+  margin-top: 24px;
+  height: 560px; /* 固定高度，讓內容溢出後滾動 */
+  overflow-y: scroll; /* 垂直滾動 */
+}
+.Fp_globalWarming_H article::-webkit-scrollbar {
+  display: none;
+}
+.Fp_globalWarming_H article .Fp_textContent_H:last-of-type {
+  margin-bottom: 220px;
+}
+.Fp_globalWarming_H article .Fp_textContent_H {
+  margin: 0;
+  width: 100%;
+  margin-top: 115px;
+  padding: 0 20px;
+}
+
+.Fp_carbonData_H, .Fp_iceData_H {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/Fp02.1.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+.Fp_carbonData_H div, .Fp_iceData_H div {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 10%;
+  justify-content: center;
+}
+.Fp_carbonData_H div article, .Fp_iceData_H div article {
+  margin: 120px 40px 0 18px;
+}
+.Fp_carbonData_H div article h2, .Fp_iceData_H div article h2 {
+  color: #fffff0;
+}
+.Fp_carbonData_H div article p, .Fp_iceData_H div article p {
+  line-height: 140%;
+}
+.Fp_carbonData_H div #carbonData, .Fp_carbonData_H div #iceData, .Fp_iceData_H div #carbonData, .Fp_iceData_H div #iceData {
+  border: 4px solid #d0ad44;
+  width: 57%;
+}
+
+.Fp_iceData_H {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/Fp05.1.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.Fp_tempData_H, .Fp_seaLevelData_H {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/FP03.jpeg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+}
+.Fp_tempData_H div, .Fp_seaLevelData_H div {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 10%;
+  justify-content: center;
+}
+.Fp_tempData_H div article, .Fp_seaLevelData_H div article {
+  margin: 120px 18px 0 40px;
+}
+.Fp_tempData_H div article h2, .Fp_seaLevelData_H div article h2 {
+  color: #fffff0;
+}
+.Fp_tempData_H div article p, .Fp_seaLevelData_H div article p {
+  line-height: 140%;
+}
+.Fp_tempData_H div #tempData, .Fp_tempData_H div #seaLevelData, .Fp_seaLevelData_H div #tempData, .Fp_seaLevelData_H div #seaLevelData {
+  border: 4px solid #d0ad44;
+  width: 57%;
+}
+
+.Fp_seaLevelData_H {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url("../images/FP04.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.Fp_Footer_H {
+  width: 100%;
+  height: 268px;
+  border: 2px solid red;
+  text-align: center;
+  font-size: 4rem;
+  line-height: 140%;
+  font-weight: bold;
+  font-family: "DM Sans, Noto Sans";
+  color: #d0ad44;
+  line-height: 268px;
 }
 
 .hero-section {
@@ -806,15 +1071,297 @@ button {
   object-fit: cover;
 }
 
+h1 {
+  font-size: 4rem;
+  line-height: 140%;
+  font-weight: bold;
+  font-family: "DM Sans, Noto Sans";
+  color: #fffff0;
+}
+
+.fliter-section ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 240px;
+  height: 280px;
+  border-radius: 20px;
+  background-color: #fffff0;
+  padding: 20px 20px;
+}
+
+.fliter-section ul li {
+  padding: 10px 0;
+}
+
+.fliter-section ul li a {
+  color: #545454;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  transition: color 0.3s;
+  gap: 28px;
+}
+
+.bgr_words_1 {
+  background-color: #5b774a;
+  height: 247px;
+  width: 120px;
+}
+
+.bgr_words_2 {
+  background-color: #2e4e3f;
+  height: 247px;
+  width: 120px;
+}
+
+.banner img {
+  width: 100%;
+  height: 360px;
+  z-index: 1;
+  position: relative;
+}
+
+.banner_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #fffff0;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.fliter-sectioon {
+  display: flex;
+}
+
+.Fp_Header_H {
+  width: 100%;
+  height: 80px;
+  border: 1px solid blue;
+  text-align: center;
+  font-size: 4rem;
+  line-height: 140%;
+  font-weight: bold;
+  font-family: "DM Sans, Noto Sans";
+  color: #d0ad44;
+  line-height: 80px;
+  position: fixed;
+  z-index: 999;
+}
+
+.Sp_productChoice_H {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 40px;
+}
+.Sp_productChoice_H .breadCrumb {
+  margin-bottom: 40px;
+  padding-top: 120px;
+  width: 100%;
+  font-size: 1.25rem;
+  line-height: 120%;
+  font-weight: normal;
+  font-family: "DM Sans, Noto Sans";
+  color: #2e4e3f;
+}
+.Sp_productChoice_H .breadCrumb ol {
+  display: flex;
+  margin: 0 24px;
+}
+.Sp_productChoice_H .breadCrumb ol a {
+  text-decoration: none;
+  color: #2e4e3f;
+}
+.Sp_productChoice_H .breadCrumb ol a:hover {
+  color: #d0ad44;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H {
+  display: flex;
+  align-items: center;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H figure {
+  display: flex;
+  width: 60%;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H figure ul {
+  margin-right: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 19%;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H figure ul li {
+  height: 120px;
+  width: 120px;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H figure ul li img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  margin-bottom: 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H figure div {
+  width: 540px;
+  height: 540px;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H figure div img {
+  width: 100%;
+  height: 540px;
+  object-fit: cover;
+  object-position: 0 center;
+  border-radius: 20px;
+  max-width: none;
+  margin-bottom: 0;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H {
+  margin-left: 40px;
+  width: 100%;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section:first-of-type div {
+  border-bottom: 1px solid #2e4e3f;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section:first-of-type div h3 {
+  font-size: 3.5rem;
+  line-height: 140%;
+  font-weight: bold;
+  font-family: "DM Sans, Noto Sans";
+  color: #2e4e3f;
+  font-size: 2rem;
+  margin: 40px 0 24px 0;
+  text-align: left;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section:first-of-type div span {
+  font-size: 1.5rem;
+  line-height: 140%;
+  font-weight: normal;
+  font-family: "DM Sans, Noto Sans";
+  color: #2e4e3f;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section:first-of-type ul {
+  width: 100%;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section:first-of-type ul li {
+  font-size: 1.25rem;
+  line-height: 120%;
+  font-weight: normal;
+  font-family: "DM Sans, Noto Sans";
+  color: #2e4e3f;
+  line-height: 140%;
+  list-style: disc;
+  margin-left: 20px;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section {
+  margin-top: 80px;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section p {
+  font-size: 1.25rem;
+  line-height: 120%;
+  font-weight: normal;
+  font-family: "DM Sans, Noto Sans";
+  color: #2e4e3f;
+  line-height: 140%;
+  margin-bottom: 12px;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section .Sp_productChoice_btnGroup_H {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section .Sp_productChoice_btnGroup_H button {
+  border-radius: 30px;
+  width: 100%;
+  height: 42px;
+  padding: 16px 12px;
+  text-align: center;
+  background-color: #d0ad44;
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 1px 4px 0px rgba(84, 84, 84, 0.5);
+  font-size: 1.25rem;
+  line-height: 120%;
+  font-weight: normal;
+  font-family: "DM Sans, Noto Sans";
+  color: #fffff0;
+  line-height: 100%;
+  line-height: 10px;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section .Sp_productChoice_btnGroup_H button:hover {
+  color: #5b774a;
+  opacity: 0.8;
+  transition: opacity 0.8s;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section .Sp_productChoice_inputGroup_H {
+  margin-bottom: 20px;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section .Sp_productChoice_buyNow_H {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section .Sp_productChoice_buyNow_H button {
+  border-radius: 30px;
+  width: 36%;
+  height: 52px;
+  padding: 16px 12px;
+  text-align: center;
+  background-color: #d0ad44;
+  cursor: pointer;
+  border: none;
+  box-shadow: 1px 1px 4px 0px rgba(84, 84, 84, 0.5);
+  font-size: 1.25rem;
+  line-height: 120%;
+  font-weight: normal;
+  font-family: "DM Sans, Noto Sans";
+  color: #fffff0;
+  line-height: 100%;
+  line-height: 20px;
+}
+.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section .Sp_productChoice_buyNow_H button:hover {
+  color: #5b774a;
+  opacity: 0.8;
+  transition: opacity 0.8s;
+}
+
+.Fp_Footer_H {
+  width: 100%;
+  height: 268px;
+  border: 2px solid red;
+  text-align: center;
+  font-size: 4rem;
+  line-height: 140%;
+  font-weight: bold;
+  font-family: "DM Sans, Noto Sans";
+  color: #d0ad44;
+  line-height: 268px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 0;
 }
 
 body {
   background-color: #e6eccc;
+}
+
+button {
+  font-family: "DM Sans, Noto Sans";
 }
 
 /*# sourceMappingURL=style.css.map */

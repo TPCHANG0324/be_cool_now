@@ -5,7 +5,6 @@
 h1{
 
     @include PC_h1($Ivory_white);
-    @include h1_stroke;
 }
 
 .fliter-section ul{

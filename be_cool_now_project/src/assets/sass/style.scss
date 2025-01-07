@@ -26,9 +26,11 @@
 @import 'page/_Ic.scss';
 
 // page
+@import 'page/index';
 @import 'page/Ac';
 @import 'page/Fp';
 @import 'page/Sp';
+@import 'page/Sp_product';
 
 
 
@@ -36,12 +38,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: 0;
 }
 
 body{
-    background-color: $Light_Green;
-    
+    background-color: $Light_Green; 
+}
+
+button{
+    font-family: $font_family;
 }
 
 
