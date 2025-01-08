@@ -196,6 +196,8 @@ table {
   margin: 0 auto;
 }
 .Ic_header_R .Ic_wrapper_R .Ic_banner_R {
+  color: #fff;
+  font-weight: bold;
   text-align: center;
   width: 100%;
   margin: 0 auto;
@@ -209,18 +211,83 @@ table {
   padding-bottom: 192px;
 }
 
+.Ic_wrapper_R {
+  position: relative;
+}
+
 .icon-list {
   display: flex;
   flex-wrap: wrap;
   gap: 80px 180px;
   justify-content: center;
-  width: 80%;
+  width: 86%;
   margin: 100px auto;
 }
-
-.icon-list img {
+.icon-list button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.icon-list button img {
   width: 200px;
   height: 200px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1px);
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.overlay.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.slide-panel {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: right 0.4s ease;
+  z-index: 1000;
+}
+
+.slide-panel.active {
+  right: 0;
+}
+
+.slide-content {
+  padding: 20px;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+}
+.slide-content .close-panel {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: red;
+  cursor: pointer;
+}
+.slide-content #panelText {
+  margin-top: 40px;
+  font-size: 16px;
+  color: #fff;
 }
 
 .Ic_icon-description_R {
@@ -256,9 +323,13 @@ table {
   font-size: 20px;
 }
 .Ic_conference-section_R h3 {
-  font-size: 24px;
   text-align: center;
+  font-size: 3.5rem;
+  line-height: 140%;
   font-weight: bold;
+  font-family: "DM Sans, Noto Sans";
+  color: #2e4e3f;
+  font-size: 32px;
   padding-top: 100px;
 }
 .Ic_conference-section_R .Ic_conference-tabs_R {
@@ -275,8 +346,8 @@ table {
   transition: background-color 0.3s;
 }
 .Ic_conference-section_R .Ic_conference-tabs_R .Ic_tab-button_R.active {
-  background-color: #007bff;
-  color: white;
+  background-color: #d0ad44;
+  color: #fffff0;
 }
 .Ic_conference-section_R .Ic_conference-content_R .Ic_tab-content {
   display: none;
@@ -339,6 +410,65 @@ swiper-slide {
   border-radius: 4px;
   margin: 0 10px;
   font-size: 13px;
+}
+
+.Ic_game_R {
+  height: 480px;
+}
+.Ic_game_R .Ic_game-content_R {
+  background-image: url("../images/Ic04.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.Ic_game_R .Ic_game-content_R .Ic_game-question_R {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 240, 0.8);
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+  color: #2E4E3F;
+}
+.Ic_game_R .Ic_game-content_R .Ic_game-question_R h4 {
+  color: #2E4E3F;
+}
+.Ic_game_R .Ic_game-content_R .Ic_game-question_R .Ic_game-options_R {
+  text-align-last: left;
+  margin: 0 20%;
+}
+.Ic_game_R .Ic_game-content_R .Ic_game-buttons_R {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.Ic_game_R .Ic_game-content_R .Ic_game-buttons_R button {
+  background-color: #2E4E3F;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.Ic_game_R .Ic_game-content_R .Ic_game-buttons_R button:hover {
+  background-color: #1D372C;
+}
+.Ic_game_R .Ic_game-content_R .Ic_game-buttons_R button.correct {
+  background-color: #28a745;
+}
+.Ic_game_R .Ic_game-content_R .Ic_game-buttons_R button.wrong {
+  background-color: #dc3545;
+}
+.Ic_game_R .Ic_game-content_R #Ic_feedback_R {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .hero-section {
