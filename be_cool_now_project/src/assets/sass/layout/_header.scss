@@ -1,3 +1,35 @@
 $header_full_width: 100%;
 
 $header_layout: 1200px !default;
+
+
+// header - bootstrap
+nav.navbar{
+    padding: 10px 0;
+    background-color: $Ivory_white !important; 
+    .container-fluid{
+        max-width: calc(1200px + 1.5rem);
+        a.navbar-brand{
+            width: 140px;
+            img{
+                width: 100%;
+            }
+        }
+        a{
+            @include PC_h4($Gray_1);
+        }
+        //漢堡選單按鈕
+        .navbar-toggler{
+            box-shadow: none;
+        }
+        //主選單
+        div.collapse{
+            
+        }
+        //兩個 icon
+        ul.list-unstyled{
+            padding-left: calc(80px - 8px);
+        }
+    }
+    
+}
