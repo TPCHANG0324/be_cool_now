@@ -67,7 +67,7 @@ $font_weight_regular:normal;
 @mixin PC_h4($color){
     font-size: $h4;
     line-height: $line_height_120;
-    font-weight: $font_weight_Bold;
+    font-weight: $font_weight_regular;
     font-family: $font_family;
     color: $color;
 }

@@ -12,7 +12,7 @@
 }
 
 //----------------------------------------------------------------------------//
-//-------------------------按鈕基本樣式(圓角, 寬度)-----------------------------//
+//-------------------------按鈕基本樣式(圓角, 寬度, 高度)-----------------------------//
 
 @mixin btn_style($br, $w, $h){
     border-radius: $br;
@@ -23,6 +23,7 @@
     background-color: $Yellow_1;
     cursor: pointer;
     border: none;
+    box-shadow: $box_shadow;
     @include PC_h4($Ivory_white);
     line-height: $line_height_100;
     &:hover{

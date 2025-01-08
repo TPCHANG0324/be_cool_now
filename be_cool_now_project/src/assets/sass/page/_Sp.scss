@@ -6,11 +6,28 @@
     }
    
 }
+<<<<<<< HEAD
 .banner{
     position: relative;
     width: 100%;
     height: 360px;
     overflow: hidden;
+=======
+h1{
+
+    @include PC_h1($Ivory_white);
+}
+
+.fliter-section ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 280px;
+    border-radius: $pic_radius_20px;
+    background-color: $Ivory_white;
+    padding: 20px 20px;
+>>>>>>> 7bd177ec5480515963c2e7a8a3afae2d3bd0fd75
     
 }
 .banner img{
