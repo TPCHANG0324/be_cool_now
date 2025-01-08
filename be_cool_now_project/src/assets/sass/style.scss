@@ -31,6 +31,7 @@
 @import 'page/Fp';
 @import 'page/Sp';
 @import 'page/Sp_product';
+@import 'page/Fb';
 
 
 
@@ -46,6 +47,10 @@ body{
 
 button{
     font-family: $font_family;
+}
+
+a{
+    text-decoration: none;
 }
 
 
