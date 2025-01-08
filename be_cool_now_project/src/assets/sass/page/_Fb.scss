@@ -1,34 +1,3 @@
-// header - bootstrap
-nav.navbar{
-    padding: 10px 0;
-    background-color: $Ivory_white !important; 
-    .container-fluid{
-        max-width: calc(1200px + 1.5rem);
-        a.navbar-brand{
-            width: 140px;
-            img{
-                width: 100%;
-            }
-        }
-        a{
-            @include PC_h4($Gray_1);
-        }
-        //漢堡選單按鈕
-        .navbar-toggler{
-            box-shadow: none;
-        }
-        //主選單
-        div.collapse{
-            
-        }
-        //兩個 icon
-        ul.list-unstyled{
-            padding-left: calc(80px - 8px);
-        }
-    }
-    
-}
-
 /* ----- 社群中心 ----- */
 main{  //因為不知道要不要拿 main 當最外框+設置底色，所以新增了一個 Fb-X
     width: 100%;
