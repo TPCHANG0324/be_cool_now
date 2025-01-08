@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottie Animation Fix</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<style>
+
+#canvas {
+    border: 1px solid #ddd;
+    margin: 20px;
+    display: block;
+}
+
+.btn-Ac_done_btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background: #28a745;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn-Ac_done_btn.disabled {
+    background: gray;
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+</style>
+
+
+
+  </head>
+<body>
+    <h1>點擊按鈕觸發 Lottie 動畫</h1>
+    <canvas id="canvas" width="300" height="300"></canvas>
+    <button class="btn-Ac_done_btn">播放動畫</button>
+
+    <!-- 正確引入 Lottie JS -->
+    <script type="module">
+        import { DotLottie } from "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web/+esm";
+
+        const button = document.querySelector(".btn-Ac_done_btn");
+        const canvas = document.getElementById("canvas");
+
+        button.addEventListener("click", function () {
+            const dotLottie = new DotLottie({
+                autoplay: true,
+                loop: false,
+                canvas: canvas,
+                src: "https://lottie.host/aff67f5e-0bd8-4ab6-945a-9ea678e78f31/5l6g0A67s1.lottie"
+            });
+
+            dotLottie.play();
+
+            dotLottie.addEventListener('complete', () => {
+                alert("動畫播放完成！");
+                button.disabled = true;
+                button.classList.add('disabled');
+            });
+        });
+    </script>
+</body>
+</html>
