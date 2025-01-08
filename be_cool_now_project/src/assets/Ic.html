@@ -108,7 +108,7 @@
   <script url="./Ic.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   <script>
-    let appendNumber =600;
+    let appendNumber =10;
     let prependNumber = 1;
 
     const swiperEl = document.querySelector('swiper-container')
@@ -124,7 +124,7 @@
       virtual: {
         slides: (function () {
           const slides = [];
-          for (var i = 0; i < 600; i += 1) {
+          for (var i = 0; i < 10; i += 1) {
             slides.push('Slide ' + (i + 1));
           }
           return slides;
