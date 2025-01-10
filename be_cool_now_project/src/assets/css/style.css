@@ -1930,33 +1930,37 @@ main {
   flex-grow: 1;
   flex-shrink: 0;
 }
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X {
+.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-container-X {
+  display: flex;
+  border-bottom: 1px solid #2e4e3f;
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px;
+  justify-content: space-between;
+}
+.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-container-X .Fb-post-category-X {
   display: flex;
   color: #2e4e3f;
-  justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #2e4e3f;
   box-sizing: border-box;
-  margin: 32px 0;
-  padding: 10px;
 }
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li {
-  padding: 16px 0;
+.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-container-X .Fb-post-category-X li {
+  padding: 16px;
   cursor: pointer;
 }
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li:nth-of-type(1) {
+.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-container-X .Fb-post-category-X li:nth-of-type(1) {
   padding-left: 0;
 }
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li:last-child {
+.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-container-X .Fb-post-category-X li:last-child {
   padding-right: 0;
 }
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li.Fb-post-category-X-active {
+.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-container-X .Fb-post-category-X li.Fb-post-category-X-active {
   font-weight: bold;
 }
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li.Fb-post-write-X {
+.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-container-X .Fb-post-write-X {
   padding: 0;
 }
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li.Fb-post-write-X a {
+.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-container-X .Fb-post-write-X a {
   display: block;
   padding: 12px 36px;
   background-color: #d0ad44;
@@ -1970,7 +1974,7 @@ main {
   width: 100%;
   margin-bottom: 32px;
   height: 248px;
-  background-image: url("../image/Fb01.jpg");
+  background-image: url("../images/Fb01.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1985,9 +1989,6 @@ main {
   padding: 1rem;
   margin-bottom: 20px;
 }
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X section article:nth-child(even) {
-  background-color: #fff;
-}
 .Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X section article .Fb-post-article-left-X {
   flex-basis: 80%;
   flex-grow: 1;
@@ -1999,7 +2000,7 @@ main {
   font-weight: normal;
   font-family: "DM Sans, Noto Sans";
   color: #2e4e3f;
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 .Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X section article .Fb-post-article-left-X .Fb-post-article-left-title-X {
   font-size: 1.125rem;
@@ -2047,7 +2048,7 @@ main {
 }
 .Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-header-X {
   padding: 1rem;
-  margin: 32px 0;
+  margin: 20px 0;
   background-color: #5b774a;
   color: #fffff0;
 }
@@ -2059,15 +2060,17 @@ main {
   cursor: pointer;
 }
 .Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-body-X article img {
-  width: 50%;
+  width: 40%;
+  height: 40%;
   aspect-ratio: 1;
   object-fit: cover;
 }
 .Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-body-X article .Fb-news-body-container-X {
-  width: 45%;
+  flex-grow: 1;
+  width: 55%;
 }
 .Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-body-X article .Fb-news-body-container-X .Fb-news-body-container-time-X {
-  margin-bottom: 16px;
+  margin-bottom: 4px;
 }
 .Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-body-X article .Fb-news-body-container-X .Fb-news-body-container-title-X {
   font-size: 1.125rem;
@@ -2089,8 +2092,356 @@ main {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   text-overflow: ellipsis;
+}
+
+/* ----- 單一文章 ----- */
+.Fb-Atricle-X {
+  letter-spacing: 1px;
+  color: #5b774a;
+}
+.Fb-Atricle-X .Fb-Atricle-title-X {
+  font-size: PC_h3(#5b774a);
+  font-weight: 700;
+}
+.Fb-Atricle-X .Fb-Atricle-info-X {
+  display: flex;
+  align-items: center;
+}
+.Fb-Atricle-X .Fb-Atricle-info-X img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 99rem;
+  margin-right: 20px;
+}
+.Fb-Atricle-X .Fb-Atricle-info-X span {
+  margin-right: 20px;
+}
+.Fb-Atricle-X .Fb-Atricle-info-X i {
+  cursor: pointer;
+}
+.Fb-Atricle-X .Fb-Atricle-info-X i:not(:last-child) {
+  margin-right: 20px;
+  margin-left: auto;
+}
+.Fb-Atricle-X p {
+  white-space: pre-wrap;
+  line-height: 2;
+}
+.Fb-Atricle-X strong {
+  font-weight: 500;
+}
+.Fb-Atricle-X img {
+  width: 100%;
+  display: block;
+  margin: 20px 0;
+}
+
+/* ----- 留言區 ----- */
+.Fb-message-X {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  color: #5b774a;
+}
+.Fb-message-X .Fb-message-select-X {
+  padding: 10px;
+  border-bottom: 1px solid #5b774a;
+}
+.Fb-message-X .Fb-message-select-X span {
+  margin-right: 40px;
+}
+.Fb-message-X .Fb-message-select-X .Fb-message-selectBox-X {
+  position: relative;
+  display: inline-block;
+}
+.Fb-message-X .Fb-message-select-X .Fb-message-selectBox-X select {
+  cursor: pointer;
+  outline: none;
+  border: 0px solid transparent;
+  padding: 10px 28px;
+  padding-left: 20px;
+  padding-right: 32px;
+  border-radius: 30px;
+  color: #fffff0;
+  background-color: #d0ad44;
+  -webkit-appearance: none;
+  /* 隱藏箭頭 */
+  -moz-appearance: none;
+  /* 隱藏箭頭 */
+  appearance: none;
+  /* 隱藏箭頭 */
+}
+.Fb-message-X .Fb-message-select-X .Fb-message-selectBox-X select option {
+  background-color: #fff;
+  color: #5b774a;
+}
+.Fb-message-X .Fb-message-select-X .Fb-message-selectBox-X::after {
+  content: "▼";
+  /* 使用不同的箭頭符號 */
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: white;
+  font-size: 12px;
+}
+.Fb-message-X .Fb-message-section-X {
+  padding: 20px 10px;
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  border-bottom: 1px solid #5b774a;
+}
+.Fb-message-X .Fb-message-section-X:last-child {
+  border: none;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-section-seeMore-X {
+  color: #d0ad44;
+  cursor: pointer;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-section-seeMore-X i {
+  margin-right: 10px;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-section-seeMore-X p {
+  display: inline-block;
+}
+.Fb-message-X .Fb-message-section-X img {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 99rem;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X {
+  flex-grow: 1;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-self-X {
+  margin-bottom: 10px;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-self-X .Fb-message-self-name-X {
+  margin-right: 20px;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-X {
+  color: #5b774a;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-X textarea {
+  outline: none;
+  border: 0px solid transparent;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-X textarea::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-other-X {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-other-X span {
+  line-height: 1.5;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-other-X span:last-child {
+  color: #DA0606;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X button {
+  float: right;
+  margin: 10px 0;
+  padding: 10px 28px;
+  outline: none;
+  border: 0px solid transparent;
+  border-radius: 30px;
+  color: #fffff0;
+  background-color: #d0ad44;
+}
+
+/* ----- 撰寫文章 ----- */
+.FbW-X {
+  background-image: url("../images/Fb08.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  position: relative;
+}
+.FbW-X .FbW-overlay-X {
+  /* 發文區的 form */
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X {
+  padding: 50px 20px;
+  max-width: 792px;
+  margin: 0 auto;
+  color: #fffff0;
+  /* 標題 */
+  /* 內文 */
+  /* 預覽圖 */
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte {
+  position: relative;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte label {
+  display: flex;
+  align-items: center;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte label span:first-child {
+  font-size: 32px;
+  font-weight: 500;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte label span:last-child {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 20px;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte select {
+  margin-left: auto;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  border: 0px solid transparent;
+  padding: 10px 28px;
+  padding-left: 20px;
+  padding-right: 32px;
+  border-radius: 30px;
+  color: #fffff0;
+  background-color: #d0ad44;
+  -webkit-appearance: none;
+  /* 隱藏箭頭 */
+  -moz-appearance: none;
+  /* 隱藏箭頭 */
+  appearance: none;
+  /* 隱藏箭頭 */
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte select option {
+  background-color: #fff;
+  color: #5b774a;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte::after {
+  content: "▼";
+  /* 使用不同的箭頭符號 */
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: white;
+  font-size: 12px;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X input {
+  display: block;
+  outline: none;
+  color: #5b774a;
+  border: 2px solid #5b774a;
+  border-radius: 5px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  padding: 0 16px;
+  height: 40px;
+  width: 100%;
+  background-color: #fffff0;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X label {
+  display: flex;
+  align-items: center;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X label span:first-child {
+  font-size: 32px;
+  font-weight: 500;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X label span:last-child {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 20px;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X .FbW-translate-X {
+  border: 2px solid #5b774a;
+  border-radius: 5px 5px 0 0;
+  margin-top: 16px;
+  padding: 1rem;
+  height: 40px;
+  width: 100%;
+  background-color: #fffff0;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X .FbW-translate-X a {
+  cursor: pointer;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X textarea {
+  outline: none;
+  color: #5b774a;
+  border: 2px solid #5b774a;
+  border-top: 0;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 16px;
+  padding: 10px 16px;
+  height: 200px;
+  width: 100%;
+  background-color: #fffff0;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X textarea::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X {
+  padding: 1rem;
+  border: 2px solid #5b774a;
+  border-radius: 5px;
+  height: 200px;
+  width: 100%;
+  background-color: #fffff0;
+  box-sizing: border-box;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X div {
+  display: flex;
+  align-items: center;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X div input#FbW-picChoose-X {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X div label {
+  margin-left: 20px;
+  color: #5b774a;
+  font-size: 14px;
+  cursor: pointer;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X .FbW-picture-slider-X {
+  border: 1px solid #5b774a;
+  width: 200px;
+  height: 120px;
+  margin: 1.5rem 0;
+  overflow: hidden;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X .FbW-picture-slider-X img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.FbW-X .FbW-overlay-X button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 28px;
+  outline: none;
+  border: 0px solid transparent;
+  border-radius: 30px;
+  color: #fffff0;
+  background-color: #d0ad44;
 }
 
 * {
