@@ -63,6 +63,14 @@ table {
   -webkit-text-stroke: 0.5px #bebebe;
 }
 
+/* 
+使用方法：
+.test1{
+    @include max_820(){
+        background-color: pink;
+    }
+}
+*/
 .btn {
   border-radius: 5px;
   width: 100%;
@@ -201,6 +209,7 @@ header {
   top: 0;
   z-index: 999;
   background-color: #fffff0;
+  box-shadow: 0 3px 6px rgb(203, 203, 203);
 }
 header .header-wrapper {
   padding: 15px 0;
@@ -213,7 +222,10 @@ header .header-wrapper {
 header .header-wrapper .logo {
   width: 140px;
 }
-header .header-wrapper .logo img {
+header .header-wrapper .logo a {
+  display: block;
+}
+header .header-wrapper .logo a img {
   width: 100%;
 }
 header .header-wrapper .nav-large {
@@ -221,10 +233,10 @@ header .header-wrapper .nav-large {
 }
 header .header-wrapper .nav-large ul {
   display: flex;
-  margin-left: 80px;
+  margin-left: 60px;
 }
 header .header-wrapper .nav-large ul li {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 header .header-wrapper .nav-large ul li a {
   font-weight: bold;

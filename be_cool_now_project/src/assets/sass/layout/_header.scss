@@ -4,7 +4,7 @@ header {
     top: 0;
     z-index: 999;
     background-color: $Ivory_white;
-
+    box-shadow: 0 3px 6px rgb(203, 203, 203);
     .header-wrapper {
         padding: 15px 0;
         max-width: 1200px;
@@ -15,9 +15,11 @@ header {
 
         .logo {
             width: 140px;
-
-            img {
-                width: 100%;
+            a{
+                display: block;
+                img {
+                    width: 100%;
+                }
             }
         }
 
@@ -26,10 +28,10 @@ header {
 
             ul {
                 display: flex;
-                margin-left: 80px;
+                margin-left: 60px;
 
                 li {
-                    margin-left: 20px;
+                    margin-left: 40px;
 
                     a {
                         

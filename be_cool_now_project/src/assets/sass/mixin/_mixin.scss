@@ -46,6 +46,13 @@
 
 //先以 820 & 430 這兩個斷點為主
 
+@mixin max_1200{   //小於 1200，所有的 main 左右都要 margin: 0 3vw;
+    @media screen and (max-width:1200px) {
+        @content;
+    }
+}
+
+
 @mixin max_1024{
     @media screen and (max-width:1024px) {
         @content;
@@ -83,7 +90,6 @@
 }
 
 /* 
-
 使用方法：
 .test1{
     @include max_820(){
