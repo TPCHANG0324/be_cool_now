@@ -102,7 +102,7 @@
     gap: 10px;
 }
 
-label {
+.label_mb {
     color: var(--second-Colors-fffff0, #FFFFF0);
     text-align: center;
     font-family: "DM Sans";
@@ -114,7 +114,7 @@ label {
     text-shadow: #545454 1px 1px 1px;
 }
 
-input {
+.input_2 {
     margin: 5px 0;
     padding: 10px;
     border-radius: 20px;
@@ -122,7 +122,7 @@ input {
     width: 300px;
 }
 
-button {
+.button_mb {
     padding: 10px 20px;
     background: #D4A017;
     border: none;
@@ -166,6 +166,7 @@ margin-left: 200px;
     display: flex;
     // justify-content: space-between;
     margin-left: 80px;
+    border: none;
 }
 .purchase-record-special {
     padding: 40px;
@@ -185,13 +186,14 @@ margin-left: 200px;
         background-color: initial;
         display: inline-block;
         text-shadow: #545454 1px 1px 1px;
+        border: none;
 
         &:hover {
             text-decoration: underline 5px;
         }
     }
 
-    table {
+    .table_mb {
         background: #e6eccc;
         width: 100%;
         border-collapse: collapse;
@@ -354,14 +356,9 @@ margin-left: 200px;
          
         }
     
-        .purchase-record-btn11,
-        .purchase-record-btn12 {
-          padding-left: 0;
-          margin: 10px 0;
-          font-size: 24x;
-        }
+        
     
-        table {
+        .table_mb {
           width: 100%;
           margin: 0px;
           overflow-x: auto;
@@ -372,7 +369,14 @@ margin-left: 200px;
           }
         }
       }
-    
+      .purchase-record-btn11,
+      .purchase-record-btn12 {
+        padding-left: 0;
+        margin: 10px 0;
+        font-size: 24x;
+        border: none;
+        margin-left: 0px;
+      }
       // 調整標題大小以適應小螢幕
       .profile-title {
         font-size: 36px;
