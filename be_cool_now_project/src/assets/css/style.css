@@ -195,10 +195,6 @@ table {
   outline: 2px solid #d0ad44;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> sunny
 header {
   width: 100%;
   position: sticky;
@@ -231,46 +227,13 @@ header .header-wrapper .nav-large ul li {
   margin-left: 20px;
 }
 header .header-wrapper .nav-large ul li a {
-<<<<<<< HEAD
   font-weight: bold;
-=======
-nav.navbar {
-  padding: 10px 0;
-  background-color: #fffff0 !important;
-}
-nav.navbar .container-fluid {
-  max-width: calc(1200px + 1.5rem);
-}
-nav.navbar .container-fluid a.navbar-brand {
-  width: 140px;
-}
-nav.navbar .container-fluid a.navbar-brand img {
-  width: 100%;
-}
-nav.navbar .container-fluid a {
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
-=======
->>>>>>> sunny
   font-size: 1.25rem;
   line-height: 120%;
   font-weight: normal;
   font-family: "DM Sans, Noto Sans";
   color: #545454;
-<<<<<<< HEAD
 }
-<<<<<<< HEAD
-=======
-nav.navbar .container-fluid .navbar-toggler {
-  box-shadow: none;
-}
-nav.navbar .container-fluid ul.list-unstyled {
-  padding-left: 72px;
-}
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
-=======
-  font-weight: bold;
-}
->>>>>>> sunny
 
 footer .footer {
   width: 100%;
@@ -761,13 +724,7 @@ swiper-slide {
   font-weight: normal;
   font-family: "DM Sans, Noto Sans";
   color: #fffff0;
-<<<<<<< HEAD
-<<<<<<< HEAD
   z-index: 1;
-=======
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
-=======
->>>>>>> sunny
   text-shadow: 1px 1px 4px rgba(84, 84, 84, 0.5);
 }
 .Fp_textContent_H span {
@@ -777,13 +734,7 @@ swiper-slide {
   font-weight: normal;
   font-family: "DM Sans, Noto Sans";
   color: #545454;
-<<<<<<< HEAD
-<<<<<<< HEAD
   z-index: 1;
-=======
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
-=======
->>>>>>> sunny
   text-shadow: 1px 1px 4px rgba(84, 84, 84, 0.5);
 }
 
@@ -1425,7 +1376,6 @@ article {
   object-fit: cover;
 }
 
-<<<<<<< HEAD
 .popup {
   width: 300px;
   height: 300px;
@@ -1784,13 +1734,6 @@ article {
     background-color: rgb(179.8076923077, 146.1538461538, 45.1923076923);
   }
 }
-h1 {
-  font-size: 4rem;
-  line-height: 140%;
-  font-weight: bold;
-  font-family: "DM Sans, Noto Sans";
-  color: #fffff0;
-=======
 .body .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -1801,14 +1744,6 @@ h1 {
   width: 100%;
   height: 360px;
   overflow: hidden;
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
-}
-.banner h1 {
-  font-size: 4rem;
-  line-height: 140%;
-  font-weight: bold;
-  font-family: "DM Sans, Noto Sans";
-  color: #fffff0;
 }
 
 .fliter-section ul {
@@ -1822,76 +1757,18 @@ h1 {
   padding: 20px 20px;
 }
 
-.fliter-section ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 240px;
-  height: 280px;
-  border-radius: 20px;
-  background-color: #fffff0;
-  padding: 20px 20px;
-}
-
-<<<<<<< HEAD
-.fliter-section ul li {
-  padding: 10px 0;
-}
-
-.fliter-section ul li a {
-  color: #545454;
-  font-size: 1.25rem;
-  font-weight: bold;
-  text-decoration: none;
-  display: block;
-  transition: color 0.3s;
-  gap: 28px;
-}
-
-.bgr_words_1 {
-  background-color: #5b774a;
-  height: 247px;
-  width: 120px;
-}
-
-.bgr_words_2 {
-  background-color: #2e4e3f;
-  height: 247px;
-  width: 120px;
-}
-
-=======
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
 .banner img {
   width: 100%;
   height: 360px;
   z-index: 1;
-<<<<<<< HEAD
-  position: relative;
-}
-
-.banner_text {
-=======
 }
 
 .banner_h1 {
   z-index: 2;
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-<<<<<<< HEAD
-  z-index: 2;
-  color: #fffff0;
-  font-size: 4rem;
-  font-weight: bold;
-  text-align: center;
-}
-
-.fliter-sectioon {
-  display: flex;
-=======
   text-align: center;
   width: 100%;
 }
@@ -2032,9 +1909,6 @@ h1 {
 .product-grid_S .bgr_words_2 p {
   text-align: center;
   font-size: 20px;
-<<<<<<< HEAD
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
-=======
   padding: 10px;
   color: #fffff0;
 }
@@ -2075,6 +1949,7 @@ h1 {
   margin: 0 auto;
   box-sizing: border-box;
   padding: 0 40px;
+  background-color: #fffff0;
 }
 .Sp_productChoice_H .breadCrumb {
   margin-bottom: 40px;
@@ -2164,410 +2039,7 @@ h1 {
   font-weight: normal;
   font-family: "DM Sans, Noto Sans";
   color: #2e4e3f;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section:first-of-type ul {
-  width: 100%;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section:first-of-type ul li {
-  font-size: 1.25rem;
-  line-height: 120%;
-  font-weight: normal;
-  font-family: "DM Sans, Noto Sans";
-  color: #2e4e3f;
-  line-height: 140%;
-  list-style: disc;
-  margin-left: 20px;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section {
-  margin-top: 80px;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section p {
-  font-size: 1.25rem;
-  line-height: 120%;
-  font-weight: normal;
-  font-family: "DM Sans, Noto Sans";
-  color: #2e4e3f;
-  line-height: 140%;
-  margin-bottom: 12px;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section .Sp_productChoice_btnGroup_H {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  gap: 20px;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section .Sp_productChoice_btnGroup_H button {
-  border-radius: 30px;
-  width: 100%;
-  height: 42px;
-  padding: 16px 12px;
-  text-align: center;
-  background-color: #d0ad44;
-  cursor: pointer;
-  border: none;
-  box-shadow: 1px 1px 4px 0px rgba(84, 84, 84, 0.5);
-  font-size: 1.25rem;
-  line-height: 120%;
-  font-weight: normal;
-  font-family: "DM Sans, Noto Sans";
-  color: #fffff0;
-  line-height: 100%;
-  line-height: 10px;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section .Sp_productChoice_btnGroup_H button:hover {
-  color: #5b774a;
-  opacity: 0.8;
-  transition: opacity 0.8s;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section .Sp_productChoice_inputGroup_H {
-  margin-bottom: 20px;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section .Sp_productChoice_buyNow_H {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section .Sp_productChoice_buyNow_H button {
-  border-radius: 30px;
-  width: 36%;
-  height: 52px;
-  padding: 16px 12px;
-  text-align: center;
-  background-color: #d0ad44;
-  cursor: pointer;
-  border: none;
-  box-shadow: 1px 1px 4px 0px rgba(84, 84, 84, 0.5);
-  font-size: 1.25rem;
-  line-height: 120%;
-  font-weight: normal;
-  font-family: "DM Sans, Noto Sans";
-  color: #fffff0;
-  line-height: 100%;
-  line-height: 20px;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section .Sp_productChoice_buyNow_H button:hover {
-  color: #5b774a;
-  opacity: 0.8;
-  transition: opacity 0.8s;
-}
-
-.Fp_Footer_H {
-  width: 100%;
-  height: 268px;
-  border: 2px solid red;
-  text-align: center;
-  font-size: 4rem;
-  line-height: 140%;
-  font-weight: bold;
-  font-family: "DM Sans, Noto Sans";
-  color: #d0ad44;
-  line-height: 268px;
-}
-
-/* ----- 社群中心 ----- */
-main {
-  width: 100%;
-}
-
-.Fb-X {
-  width: 100%;
-  background-color: #e6eccc;
-}
-.Fb-X .Fb-wrapper-X {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  gap: 3%;
-  /* 文章 */
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X {
-  width: 70%;
-  flex-grow: 1;
-  flex-shrink: 0;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X {
-  display: flex;
-  color: #2e4e3f;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #2e4e3f;
-  box-sizing: border-box;
-  margin: 32px 0;
-  padding: 10px;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li {
-  padding: 16px 0;
-  cursor: pointer;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li:nth-of-type(1) {
-  padding-left: 0;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li:last-child {
-  padding-right: 0;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li.Fb-post-category-X-active {
-  font-weight: bold;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li.Fb-post-write-X {
-  padding: 0;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li.Fb-post-write-X a {
-  display: block;
-  padding: 12px 36px;
-  background-color: #d0ad44;
-  border-radius: 30px;
-  color: #2e4e3f;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X .Fb-post-article-top-X {
-  width: 100%;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X .Fb-post-article-top-X .Fb-post-article-banner-X {
-  width: 100%;
-  margin-bottom: 32px;
-  height: 248px;
-  background-image: url("../image/Fb01.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X section article {
-  display: flex;
-  gap: 16px;
-  cursor: pointer;
-  color: #2e4e3f;
-  letter-spacing: 1px;
-  background-color: #fffff0;
-  box-sizing: border-box;
-  padding: 1rem;
-  margin-bottom: 20px;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X section article:nth-child(even) {
-  background-color: #fff;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X section article .Fb-post-article-left-X {
-  flex-basis: 80%;
-  flex-grow: 1;
-  flex-shrink: 0;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X section article .Fb-post-article-left-X .Fb-post-article-left-C-T-X {
-  font-size: 1rem;
-  line-height: 120%;
-  font-weight: normal;
-  font-family: "DM Sans, Noto Sans";
-  color: #2e4e3f;
-  margin-bottom: 20px;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X section article .Fb-post-article-left-X .Fb-post-article-left-title-X {
-  font-size: 1.125rem;
-  line-height: 120%;
-  font-weight: normal;
-  font-family: "DM Sans, Noto Sans";
-  color: #2e4e3f;
-  font-weight: 500;
-  margin-right: 20px;
-  line-height: 1.2;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  -webkit-line-clamp: 1;
-  text-overflow: ellipsis;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X section article .Fb-post-article-left-X p {
-  line-height: 1.5;
-  text-align: justify;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  -webkit-line-clamp: 2;
-  text-overflow: ellipsis;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X section article .Fb-post-article-left-X .Fb-post-react-X i:not(:last-child) {
-  margin-right: 12px;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X section article .Fb-post-article-right-X {
-  flex-grow: 0;
-  flex-shrink: 1;
-  flex-basis: 20%;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X section article .Fb-post-article-right-X img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.Fb-X .Fb-wrapper-X .Fb-news-X {
-  width: 25%;
-  flex-grow: 1;
-  flex-shrink: 0;
-}
-.Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-header-X {
-  padding: 1rem;
-  margin: 32px 0;
-  background-color: #5b774a;
-  color: #fffff0;
-}
-.Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-body-X article {
-  margin-bottom: 20px;
-  display: flex;
-  gap: 5%;
-  color: #2e4e3f;
-  cursor: pointer;
-}
-.Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-body-X article img {
-  width: 50%;
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-.Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-body-X article .Fb-news-body-container-X {
-  width: 45%;
-}
-.Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-body-X article .Fb-news-body-container-X .Fb-news-body-container-time-X {
-  margin-bottom: 16px;
-}
-.Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-body-X article .Fb-news-body-container-X .Fb-news-body-container-title-X {
-  font-size: 1.125rem;
-  line-height: 120%;
-  font-weight: normal;
-  font-family: "DM Sans, Noto Sans";
-  color: #2e4e3f;
-  font-weight: 500;
-  line-height: 1.2;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  -webkit-line-clamp: 2;
-  text-overflow: ellipsis;
-  margin-bottom: 10px;
-}
-.Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-body-X article .Fb-news-body-container-X .Fb-news-body-container-content-X {
-  line-height: 1.2;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  -webkit-line-clamp: 3;
-  text-overflow: ellipsis;
->>>>>>> sunny
-}
-
-.Fp_Header_H {
-  width: 100%;
-  height: 80px;
-  border: 1px solid blue;
-  text-align: center;
-  font-size: 4rem;
-  line-height: 140%;
-  font-weight: bold;
-  font-family: "DM Sans, Noto Sans";
-  color: #d0ad44;
-  line-height: 80px;
-  position: fixed;
-  z-index: 999;
-}
-
-.Sp_productChoice_H {
-  max-width: 1200px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 0 40px;
-<<<<<<< HEAD
-=======
-  background-color: #fffff0;
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
-}
-.Sp_productChoice_H .breadCrumb {
-  margin-bottom: 40px;
-  padding-top: 120px;
-  width: 100%;
-  font-size: 1.25rem;
-  line-height: 120%;
-  font-weight: normal;
-  font-family: "DM Sans, Noto Sans";
-  color: #2e4e3f;
-}
-.Sp_productChoice_H .breadCrumb ol {
-  display: flex;
-  margin: 0 24px;
-}
-.Sp_productChoice_H .breadCrumb ol a {
-  text-decoration: none;
-  color: #2e4e3f;
-}
-.Sp_productChoice_H .breadCrumb ol a:hover {
-  color: #d0ad44;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H {
-  display: flex;
-  align-items: center;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H figure {
-  display: flex;
-  width: 60%;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H figure ul {
-  margin-right: 24px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  width: 19%;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H figure ul li {
-  height: 120px;
-  width: 120px;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H figure ul li img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  max-width: none;
-  margin-bottom: 0;
-  border-radius: 20px;
-  cursor: pointer;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H figure div {
-  width: 540px;
-  height: 540px;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H figure div img {
-  width: 100%;
-  height: 540px;
-  object-fit: cover;
-  object-position: 0 center;
-  border-radius: 20px;
-  max-width: none;
-  margin-bottom: 0;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H {
-  margin-left: 40px;
-  width: 100%;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section:first-of-type div {
-  border-bottom: 1px solid #2e4e3f;
-  padding-bottom: 24px;
-  margin-bottom: 24px;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section:first-of-type div h3 {
-  font-size: 3.5rem;
-  line-height: 140%;
-  font-weight: bold;
-  font-family: "DM Sans, Noto Sans";
-  color: #2e4e3f;
-  font-size: 2rem;
-  margin: 40px 0 24px 0;
-  text-align: left;
-}
-.Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section:first-of-type div span {
-  font-size: 1.5rem;
-  line-height: 140%;
-  font-weight: normal;
-  font-family: "DM Sans, Noto Sans";
-  color: #2e4e3f;
-<<<<<<< HEAD
   z-index: 1;
-=======
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
 }
 .Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section:first-of-type ul {
   width: 100%;
@@ -2632,10 +2104,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 20px;
-<<<<<<< HEAD
-=======
   padding-bottom: 32px;
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
 }
 .Sp_productChoice_H .Sp_productChoice_top_H .Sp_productChoice_info_H section .Sp_productChoice_buyNow_H button {
   border-radius: 30px;
@@ -2661,8 +2130,6 @@ main {
   transition: opacity 0.8s;
 }
 
-<<<<<<< HEAD
-=======
 .Sp_productChoice_details_H {
   width: 100%;
   margin-top: 40px;
@@ -2686,6 +2153,7 @@ main {
   font-weight: normal;
   font-family: "DM Sans, Noto Sans";
   color: #2e4e3f;
+  z-index: 1;
   font-weight: bold;
   text-align: center;
   width: 100%;
@@ -2739,6 +2207,7 @@ main {
   font-weight: normal;
   font-family: "DM Sans, Noto Sans";
   color: #5b774a;
+  z-index: 1;
   margin-bottom: 40px;
 }
 .Sp_productChoice_details_H .Sp_productChoice_detailsBlock2_H div p {
@@ -2747,6 +2216,7 @@ main {
   font-weight: normal;
   font-family: "DM Sans, Noto Sans";
   color: #5b774a;
+  z-index: 1;
 }
 .Sp_productChoice_details_H .Sp_productChoice_detailsBlock3_H {
   display: flex;
@@ -2766,6 +2236,7 @@ main {
   font-weight: normal;
   font-family: "DM Sans, Noto Sans";
   color: #5b774a;
+  z-index: 1;
   margin-left: 40px;
   margin-top: 136px;
   width: 23%;
@@ -2781,6 +2252,7 @@ main {
   font-weight: normal;
   font-family: "DM Sans, Noto Sans";
   color: #2e4e3f;
+  z-index: 1;
   font-weight: bold;
   text-align: center;
   width: 100%;
@@ -2818,7 +2290,6 @@ main {
   color: #558c32;
 }
 
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
 .Fp_Footer_H {
   width: 100%;
   height: 268px;
@@ -2832,36 +2303,399 @@ main {
   line-height: 268px;
 }
 
-<<<<<<< HEAD
-nav.navbar {
-  padding: 10px 0;
-  background-color: #fffff0 !important;
-}
-nav.navbar .container-fluid {
-  max-width: calc(1200px + 1.5rem);
-}
-nav.navbar .container-fluid a.navbar-brand {
-  width: 140px;
-}
-nav.navbar .container-fluid a.navbar-brand img {
+/* ----- 環保市集 - 購物車 ----- */
+.Sp-X {
   width: 100%;
+  background-color: #e6eccc;
+  color: #5b774a;
 }
-nav.navbar .container-fluid a {
-  font-size: 1.25rem;
-  line-height: 120%;
-  font-weight: normal;
-  font-family: "DM Sans, Noto Sans";
-  color: #545454;
+.Sp-X .Sp-wrapper-X {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  box-sizing: border-box;
+  /* 流程顯示 */
+  /* 購物車 */
+  /* 精選商品 */
+  /* 訂單：選擇付款方式 + 訂單資訊 */
+  /* 出貨提醒 */
 }
-nav.navbar .container-fluid .navbar-toggler {
-  box-shadow: none;
+.Sp-X .Sp-wrapper-X .Sp-checkout-nav-X {
+  text-align: center;
+  margin-top: 30px;
+  /* 每一個圓圈 */
 }
-nav.navbar .container-fluid ul.list-unstyled {
-  padding-left: 72px;
+.Sp-X .Sp-wrapper-X .Sp-checkout-nav-X .Sp-step-X {
+  display: inline-block;
+  vertical-align: top;
+  width: 240px;
+  max-width: 33%;
+  margin-left: -2px;
+  margin-right: -2px;
+  color: black;
+}
+.Sp-X .Sp-wrapper-X .Sp-checkout-nav-X .Sp-step-X.active .Sp-badge-X::after {
+  background-color: #d0ad44;
+}
+.Sp-X .Sp-wrapper-X .Sp-checkout-nav-X .Sp-step-X:first-child .Sp-badge-X::before {
+  width: 50%;
+  left: 50%;
+}
+.Sp-X .Sp-wrapper-X .Sp-checkout-nav-X .Sp-step-X:last-child .Sp-badge-X::before {
+  width: 50%;
+  right: 50%;
+}
+.Sp-X .Sp-wrapper-X .Sp-checkout-nav-X .Sp-step-X span {
+  display: block;
+  padding: 2px 5px;
+  color: #5b774a;
+}
+.Sp-X .Sp-wrapper-X .Sp-checkout-nav-X .Sp-step-X span.Sp-badge-X {
+  position: relative;
+  background-color: transparent;
+  height: 50px;
+  line-height: 50px;
+  padding: 0;
+  color: #2e4e3f;
+  text-align: center;
+  white-space: nowrap;
+}
+.Sp-X .Sp-wrapper-X .Sp-checkout-nav-X .Sp-step-X span.Sp-badge-X::before {
+  content: " ";
+  background-color: #fffff0;
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -1px;
+  z-index: 0;
+  box-sizing: border-box;
+}
+.Sp-X .Sp-wrapper-X .Sp-checkout-nav-X .Sp-step-X span.Sp-badge-X::after {
+  content: " ";
+  background-color: #ede1bb;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  z-index: 0;
+  box-sizing: border-box;
+}
+.Sp-X .Sp-wrapper-X .Sp-checkout-nav-X .Sp-step-X span.Sp-badge-X .Sp-badge-text-X {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  line-height: 50px;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X {
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  background-color: #fffff0;
+  /* 表頭 */
+  /* 項目名稱 + 內容 */
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-section-header {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 1rem;
+  background-color: #ede1bb;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-table-header-X {
+  padding: 1rem;
+  display: flex;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-table-header-X::before {
+  display: table;
+  content: "";
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-table-header-X::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-table-header-X div {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-table-header-X div:nth-of-type(1) {
+  padding-left: 0;
+  width: 25%;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-table-header-X div:nth-of-type(2) {
+  width: 16.66666667%;
+  text-align: center;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-table-header-X div:nth-of-type(3) {
+  width: 16.66666667%;
+  text-align: center;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-table-header-X div:nth-of-type(4) {
+  width: 16.66666667%;
+  text-align: center;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-table-header-X div:nth-of-type(5) {
+  width: 16.66666667%;
+  text-align: center;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-table-header-X div:nth-of-type(6) {
+  padding-right: 0;
+  width: 8.33333333%;
+  text-align: center;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X {
+  padding: 1rem;
+  display: flex;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X div {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X div:nth-of-type(1) {
+  padding-left: 0;
+  width: 25%;
+  display: flex;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X div:nth-of-type(1) a {
+  display: block;
+  height: 50px;
+  width: 20%;
+  margin-right: 10px;
+  background-image: url("../image/Sp06.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X div:nth-of-type(2) {
+  width: 16.66666667%;
+  text-align: center;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X div:nth-of-type(3) {
+  width: 16.66666667%;
+  text-align: center;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X div:nth-of-type(4) {
+  width: 16.66666667%;
+  text-align: center;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X div:nth-of-type(4) form {
+  border: 1px solid #5b774a;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X div:nth-of-type(4) form .Sp-cart-input-group-X {
+  position: static;
+  min-height: 0;
+  padding-right: 0;
+  padding-left: 0;
+  padding-left: 0;
+  width: auto;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X div:nth-of-type(4) form .Sp-cart-input-group-X span {
+  padding: 10px;
+  background-color: #558c32;
+  color: #fffff0;
+  cursor: pointer;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X div:nth-of-type(4) form .Sp-cart-input-group-X input {
+  flex-grow: 1;
+  width: 50%;
+  outline: none;
+  border: 0px solid transparent;
+  background-color: #fffff0;
+  text-align: center;
+  color: #5b774a;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X div:nth-of-type(4) form .Sp-cart-input-group-X input[type=number]::-webkit-outer-spin-button,
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X div:nth-of-type(4) form .Sp-cart-input-group-X input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X div:nth-of-type(5) {
+  width: 16.66666667%;
+  text-align: center;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X div:nth-of-type(6) {
+  padding-right: 0;
+  width: 8.33333333%;
+  text-align: center;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-X .Sp-cart-items-wrapper-X .Sp-cart-item-X div:nth-of-type(6) i {
+  cursor: pointer;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-addon-X {
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  background-color: #fffff0;
+  /* 表頭 */
+  /* 項目內容 */
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-addon-X .Sp-section-header {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 1rem;
+  background-color: #ede1bb;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-addon-X .Sp-cart-addon-wrapper-X {
+  padding: 1rem;
+  display: flex;
+  gap: 3%;
+  box-sizing: border-box;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-addon-X .Sp-cart-addon-wrapper-X .Sp-cart-addon-item-X {
+  width: 25%;
+  display: flex;
+  box-sizing: border-box;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-addon-X .Sp-cart-addon-wrapper-X .Sp-cart-addon-item-X .Sp-cart-addon-item-img {
+  width: 40%;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-addon-X .Sp-cart-addon-wrapper-X .Sp-cart-addon-item-X .Sp-cart-addon-item-img img {
+  display: block;
+  font-size: 0;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-addon-X .Sp-cart-addon-wrapper-X .Sp-cart-addon-item-X .Sp-cart-addon-item-content {
+  width: 40%;
+  margin: 0 5%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-addon-X .Sp-cart-addon-wrapper-X .Sp-cart-addon-item-X .Sp-cart-addon-item-content .Sp-cart-addon-item-info p {
+  line-height: 1.2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-addon-X .Sp-cart-addon-wrapper-X .Sp-cart-addon-item-X .Sp-cart-addon-item-content .Sp-cart-addon-item-info span {
+  display: block;
+  margin: 8px 0;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-cart-addon-X .Sp-cart-addon-wrapper-X .Sp-cart-addon-item-X .Sp-cart-addon-item-content button {
+  cursor: pointer;
+  padding: 10px 28px;
+  outline: none;
+  border: 0px solid transparent;
+  border-radius: 30px;
+  color: #fffff0;
+  background-color: #d0ad44;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-info-X {
+  display: flex;
+  gap: 28px;
+  /* 選擇付款方式 */
+  /* 訂單資訊 */
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-info-X .Sp-order-form-X {
+  width: 65%;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  background-color: #fffff0;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-info-X .Sp-order-form-X .Sp-order-form-header {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 1rem;
+  background-color: #ede1bb;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-info-X .Sp-order-form-X .Sp-order-form-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-info-X .Sp-order-form-X .Sp-order-form-body select {
+  color: #5b774a;
+  box-sizing: border-box;
+  outline: none;
+  margin-top: 12px;
+  margin-bottom: 32px;
+  background-color: #fffff0;
+  height: 40px;
+  padding: 0 4px;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-info-X .Sp-order-summary-X {
+  width: 35%;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  background-color: #fffff0;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-info-X .Sp-order-summary-X .Sp-order-summary-header {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 1rem;
+  background-color: #ede1bb;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-info-X .Sp-order-summary-X .Sp-order-summary-body {
+  padding: 1rem;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-info-X .Sp-order-summary-X .Sp-order-summary-body div {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-info-X .Sp-order-summary-X .Sp-order-summary-body div form {
+  display: flex;
+  box-sizing: border-box;
+  width: 50%;
+  border: 1px solid #5b774a;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-info-X .Sp-order-summary-X .Sp-order-summary-body div form span {
+  padding: 10px;
+  background-color: #558c32;
+  color: #fffff0;
+  cursor: pointer;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-info-X .Sp-order-summary-X .Sp-order-summary-body div form input {
+  flex-grow: 1;
+  width: 50%;
+  outline: none;
+  border: 0px solid transparent;
+  background-color: #fffff0;
+  text-align: center;
+  color: #5b774a;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-info-X .Sp-order-summary-X .Sp-order-summary-body div form input[type=number]::-webkit-outer-spin-button,
+.Sp-X .Sp-wrapper-X .Sp-shopping-info-X .Sp-order-summary-X .Sp-order-summary-body div form input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-info-X .Sp-order-summary-X .Sp-order-summary-body a.Sp-checkout-Btn {
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+  padding: 10px 28px;
+  outline: none;
+  border: 0px solid transparent;
+  border-radius: 30px;
+  color: #fffff0;
+  background-color: #d0ad44;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-reminder-X {
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  background-color: #fffff0;
+  margin-bottom: 30px;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-reminder-X .Sp-shopping-reminder-header {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 1rem;
+  background-color: #ede1bb;
+}
+.Sp-X .Sp-wrapper-X .Sp-shopping-reminder-X .Sp-shopping-reminder-body {
+  padding: 1rem;
+  white-space: pre-wrap;
+  line-height: 2;
 }
 
-=======
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
 /* ----- 社群中心 ----- */
 main {
   width: 100%;
@@ -2883,35 +2717,6 @@ main {
   flex-grow: 1;
   flex-shrink: 0;
 }
-<<<<<<< HEAD
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X {
-  display: flex;
-  color: #2e4e3f;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid #2e4e3f;
-  box-sizing: border-box;
-  margin: 32px 0;
-  padding: 10px;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li {
-  padding: 16px 0;
-  cursor: pointer;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li:nth-of-type(1) {
-  padding-left: 0;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li:last-child {
-  padding-right: 0;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li.Fb-post-category-X-active {
-  font-weight: bold;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li.Fb-post-write-X {
-  padding: 0;
-}
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-X li.Fb-post-write-X a {
-=======
 .Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-container-X {
   display: flex;
   border-bottom: 1px solid #2e4e3f;
@@ -2943,7 +2748,6 @@ main {
   padding: 0;
 }
 .Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-category-container-X .Fb-post-write-X a {
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
   display: block;
   padding: 12px 36px;
   background-color: #d0ad44;
@@ -2957,11 +2761,7 @@ main {
   width: 100%;
   margin-bottom: 32px;
   height: 248px;
-<<<<<<< HEAD
-  background-image: url("../image/Fb01.jpg");
-=======
   background-image: url("../images/Fb01.jpg");
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -2976,12 +2776,6 @@ main {
   padding: 1rem;
   margin-bottom: 20px;
 }
-<<<<<<< HEAD
-.Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X section article:nth-child(even) {
-  background-color: #fff;
-}
-=======
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
 .Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X section article .Fb-post-article-left-X {
   flex-basis: 80%;
   flex-grow: 1;
@@ -2993,11 +2787,7 @@ main {
   font-weight: normal;
   font-family: "DM Sans, Noto Sans";
   color: #2e4e3f;
-<<<<<<< HEAD
-  margin-bottom: 20px;
-=======
   margin-bottom: 14px;
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
 }
 .Fb-X .Fb-wrapper-X .Fb-post-X .Fb-post-article-X section article .Fb-post-article-left-X .Fb-post-article-left-title-X {
   font-size: 1.125rem;
@@ -3045,11 +2835,7 @@ main {
 }
 .Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-header-X {
   padding: 1rem;
-<<<<<<< HEAD
-  margin: 32px 0;
-=======
   margin: 20px 0;
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
   background-color: #5b774a;
   color: #fffff0;
 }
@@ -3061,28 +2847,17 @@ main {
   cursor: pointer;
 }
 .Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-body-X article img {
-<<<<<<< HEAD
-  width: 50%;
-=======
   width: 40%;
   height: 40%;
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
   aspect-ratio: 1;
   object-fit: cover;
 }
 .Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-body-X article .Fb-news-body-container-X {
-<<<<<<< HEAD
-  width: 45%;
-}
-.Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-body-X article .Fb-news-body-container-X .Fb-news-body-container-time-X {
-  margin-bottom: 16px;
-=======
   flex-grow: 1;
   width: 55%;
 }
 .Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-body-X article .Fb-news-body-container-X .Fb-news-body-container-time-X {
   margin-bottom: 4px;
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
 }
 .Fb-X .Fb-wrapper-X .Fb-news-X .Fb-news-body-X article .Fb-news-body-container-X .Fb-news-body-container-title-X {
   font-size: 1.125rem;
@@ -3104,9 +2879,361 @@ main {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   overflow: hidden;
-<<<<<<< HEAD
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 2;
   text-overflow: ellipsis;
+}
+
+/* ----- 單一文章 ----- */
+.Fb-Atricle-X {
+  letter-spacing: 1px;
+  color: #5b774a;
+  background-color: #fffff0;
+  padding: 2rem;
+}
+.Fb-Atricle-X .Fb-Atricle-title-X {
+  font-size: PC_h3(#5b774a);
+  font-weight: 700;
+}
+.Fb-Atricle-X .Fb-Atricle-info-X {
+  display: flex;
+  align-items: center;
+}
+.Fb-Atricle-X .Fb-Atricle-info-X img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 99rem;
+  margin-right: 20px;
+}
+.Fb-Atricle-X .Fb-Atricle-info-X span {
+  margin-right: 20px;
+}
+.Fb-Atricle-X .Fb-Atricle-info-X i {
+  cursor: pointer;
+}
+.Fb-Atricle-X .Fb-Atricle-info-X i:not(:last-child) {
+  margin-right: 20px;
+  margin-left: auto;
+}
+.Fb-Atricle-X p {
+  white-space: pre-wrap;
+  line-height: 2;
+}
+.Fb-Atricle-X strong {
+  font-weight: 500;
+}
+.Fb-Atricle-X img {
+  width: 100%;
+  display: block;
+  margin: 20px 0;
+}
+
+/* ----- 留言區 ----- */
+.Fb-message-X {
+  margin-bottom: 40px;
+  color: #5b774a;
+  background-color: #fffff0;
+  padding: 2rem;
+}
+.Fb-message-X .Fb-message-select-X {
+  padding: 10px;
+  border-bottom: 1px solid #5b774a;
+}
+.Fb-message-X .Fb-message-select-X span {
+  margin-right: 40px;
+}
+.Fb-message-X .Fb-message-select-X .Fb-message-selectBox-X {
+  position: relative;
+  display: inline-block;
+}
+.Fb-message-X .Fb-message-select-X .Fb-message-selectBox-X select {
+  cursor: pointer;
+  outline: none;
+  border: 0px solid transparent;
+  padding: 10px 28px;
+  padding-left: 20px;
+  padding-right: 32px;
+  border-radius: 30px;
+  color: #fffff0;
+  background-color: #d0ad44;
+  -webkit-appearance: none;
+  /* 隱藏箭頭 */
+  -moz-appearance: none;
+  /* 隱藏箭頭 */
+  appearance: none;
+  /* 隱藏箭頭 */
+}
+.Fb-message-X .Fb-message-select-X .Fb-message-selectBox-X select option {
+  background-color: #fff;
+  color: #5b774a;
+}
+.Fb-message-X .Fb-message-select-X .Fb-message-selectBox-X::after {
+  content: "▼";
+  /* 使用不同的箭頭符號 */
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: white;
+  font-size: 12px;
+}
+.Fb-message-X .Fb-message-section-X {
+  padding: 20px 10px;
+  display: flex;
+  gap: 20px;
+  align-items: stretch;
+  border-bottom: 1px solid #5b774a;
+}
+.Fb-message-X .Fb-message-section-X:last-child {
+  border: none;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-section-seeMore-X {
+  color: #d0ad44;
+  cursor: pointer;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-section-seeMore-X i {
+  margin-right: 10px;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-section-seeMore-X p {
+  display: inline-block;
+}
+.Fb-message-X .Fb-message-section-X img {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 99rem;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X {
+  flex-grow: 1;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-self-X {
+  margin-bottom: 10px;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-self-X .Fb-message-self-name-X {
+  margin-right: 20px;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-X {
+  color: #5b774a;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-X textarea {
+  background-color: #e6eccc;
+  outline: none;
+  border: 0px solid transparent;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-X textarea::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-other-X {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-other-X span {
+  line-height: 1.5;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-other-X span:last-child {
+  color: #DA0606;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 14px;
+}
+.Fb-message-X .Fb-message-section-X .Fb-message-area-X button {
+  float: right;
+  margin: 10px 0;
+  padding: 10px 28px;
+  outline: none;
+  border: 0px solid transparent;
+  border-radius: 30px;
+  color: #fffff0;
+  background-color: #d0ad44;
+}
+
+/* ----- 撰寫文章 ----- */
+.FbW-X {
+  background-image: url("../images/Fb08.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  position: relative;
+}
+.FbW-X .FbW-overlay-X {
+  /* 發文區的 form */
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X {
+  padding: 50px 20px;
+  max-width: 792px;
+  margin: 0 auto;
+  color: #fffff0;
+  /* 標題 */
+  /* 內文 */
+  /* 預覽圖 */
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte {
+  position: relative;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte label {
+  display: flex;
+  align-items: center;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte label span:first-child {
+  font-size: 32px;
+  font-weight: 500;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte label span:last-child {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 20px;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte select {
+  margin-left: auto;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  border: 0px solid transparent;
+  padding: 10px 28px;
+  padding-left: 20px;
+  padding-right: 32px;
+  border-radius: 30px;
+  color: #fffff0;
+  background-color: #d0ad44;
+  -webkit-appearance: none;
+  /* 隱藏箭頭 */
+  -moz-appearance: none;
+  /* 隱藏箭頭 */
+  appearance: none;
+  /* 隱藏箭頭 */
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte select option {
+  background-color: #fff;
+  color: #5b774a;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte::after {
+  content: "▼";
+  /* 使用不同的箭頭符號 */
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: white;
+  font-size: 12px;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X input {
+  display: block;
+  outline: none;
+  color: #5b774a;
+  border: 2px solid #5b774a;
+  border-radius: 5px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  padding: 0 16px;
+  height: 40px;
+  width: 100%;
+  background-color: #fffff0;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X label {
+  display: flex;
+  align-items: center;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X label span:first-child {
+  font-size: 32px;
+  font-weight: 500;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X label span:last-child {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 20px;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X .FbW-translate-X {
+  border: 2px solid #5b774a;
+  border-radius: 5px 5px 0 0;
+  margin-top: 16px;
+  padding: 1rem;
+  height: 40px;
+  width: 100%;
+  background-color: #fffff0;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X .FbW-translate-X a {
+  cursor: pointer;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X textarea {
+  outline: none;
+  color: #5b774a;
+  border: 2px solid #5b774a;
+  border-top: 0;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 16px;
+  padding: 10px 16px;
+  height: 200px;
+  width: 100%;
+  background-color: #fffff0;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X textarea::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X {
+  padding: 1rem;
+  border: 2px solid #5b774a;
+  border-radius: 5px;
+  height: 200px;
+  width: 100%;
+  background-color: #fffff0;
+  box-sizing: border-box;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X div {
+  display: flex;
+  align-items: center;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X div input#FbW-picChoose-X {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X div label {
+  margin-left: 20px;
+  color: #5b774a;
+  font-size: 14px;
+  cursor: pointer;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X .FbW-picture-slider-X {
+  border: 1px solid #5b774a;
+  width: 200px;
+  height: 120px;
+  margin: 1.5rem 0;
+  overflow: hidden;
+}
+.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X .FbW-picture-slider-X img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.FbW-X .FbW-overlay-X button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 28px;
+  outline: none;
+  border: 0px solid transparent;
+  border-radius: 30px;
+  color: #fffff0;
+  background-color: #d0ad44;
 }
 
 .wrapperpr {
@@ -3880,360 +4007,6 @@ body {
     margin-left: 46px;
   }
 }
-=======
-  -webkit-line-clamp: 2;
-  text-overflow: ellipsis;
-}
-
-/* ----- 單一文章 ----- */
-.Fb-Atricle-X {
-  letter-spacing: 1px;
-  color: #5b774a;
-}
-.Fb-Atricle-X .Fb-Atricle-title-X {
-  font-size: PC_h3(#5b774a);
-  font-weight: 700;
-}
-.Fb-Atricle-X .Fb-Atricle-info-X {
-  display: flex;
-  align-items: center;
-}
-.Fb-Atricle-X .Fb-Atricle-info-X img {
-  width: 30px;
-  height: 30px;
-  object-fit: cover;
-  border-radius: 99rem;
-  margin-right: 20px;
-}
-.Fb-Atricle-X .Fb-Atricle-info-X span {
-  margin-right: 20px;
-}
-.Fb-Atricle-X .Fb-Atricle-info-X i {
-  cursor: pointer;
-}
-.Fb-Atricle-X .Fb-Atricle-info-X i:not(:last-child) {
-  margin-right: 20px;
-  margin-left: auto;
-}
-.Fb-Atricle-X p {
-  white-space: pre-wrap;
-  line-height: 2;
-}
-.Fb-Atricle-X strong {
-  font-weight: 500;
-}
-.Fb-Atricle-X img {
-  width: 100%;
-  display: block;
-  margin: 20px 0;
-}
-
-/* ----- 留言區 ----- */
-.Fb-message-X {
-  margin-top: 100px;
-  margin-bottom: 40px;
-  color: #5b774a;
-}
-.Fb-message-X .Fb-message-select-X {
-  padding: 10px;
-  border-bottom: 1px solid #5b774a;
-}
-.Fb-message-X .Fb-message-select-X span {
-  margin-right: 40px;
-}
-.Fb-message-X .Fb-message-select-X .Fb-message-selectBox-X {
-  position: relative;
-  display: inline-block;
-}
-.Fb-message-X .Fb-message-select-X .Fb-message-selectBox-X select {
-  cursor: pointer;
-  outline: none;
-  border: 0px solid transparent;
-  padding: 10px 28px;
-  padding-left: 20px;
-  padding-right: 32px;
-  border-radius: 30px;
-  color: #fffff0;
-  background-color: #d0ad44;
-  -webkit-appearance: none;
-  /* 隱藏箭頭 */
-  -moz-appearance: none;
-  /* 隱藏箭頭 */
-  appearance: none;
-  /* 隱藏箭頭 */
-}
-.Fb-message-X .Fb-message-select-X .Fb-message-selectBox-X select option {
-  background-color: #fff;
-  color: #5b774a;
-}
-.Fb-message-X .Fb-message-select-X .Fb-message-selectBox-X::after {
-  content: "▼";
-  /* 使用不同的箭頭符號 */
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 15px;
-  transform: translateY(-50%);
-  pointer-events: none;
-  color: white;
-  font-size: 12px;
-}
-.Fb-message-X .Fb-message-section-X {
-  padding: 20px 10px;
-  display: flex;
-  gap: 20px;
-  align-items: stretch;
-  border-bottom: 1px solid #5b774a;
-}
-.Fb-message-X .Fb-message-section-X:last-child {
-  border: none;
-}
-.Fb-message-X .Fb-message-section-X .Fb-message-section-seeMore-X {
-  color: #d0ad44;
-  cursor: pointer;
-}
-.Fb-message-X .Fb-message-section-X .Fb-message-section-seeMore-X i {
-  margin-right: 10px;
-}
-.Fb-message-X .Fb-message-section-X .Fb-message-section-seeMore-X p {
-  display: inline-block;
-}
-.Fb-message-X .Fb-message-section-X img {
-  flex-shrink: 0;
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-  border-radius: 99rem;
-}
-.Fb-message-X .Fb-message-section-X .Fb-message-area-X {
-  flex-grow: 1;
-}
-.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-self-X {
-  margin-bottom: 10px;
-}
-.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-self-X .Fb-message-self-name-X {
-  margin-right: 20px;
-}
-.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-X {
-  color: #5b774a;
-}
-.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-X textarea {
-  outline: none;
-  border: 0px solid transparent;
-  width: 100%;
-  height: 100px;
-  padding: 10px;
-}
-.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-X textarea::placeholder {
-  color: rgba(0, 0, 0, 0.3);
-}
-.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-other-X {
-  display: flex;
-  justify-content: space-between;
-  gap: 50px;
-}
-.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-other-X span {
-  line-height: 1.5;
-}
-.Fb-message-X .Fb-message-section-X .Fb-message-area-X .Fb-message-content-other-X span:last-child {
-  color: #DA0606;
-  cursor: pointer;
-  flex-shrink: 0;
-}
-.Fb-message-X .Fb-message-section-X .Fb-message-area-X button {
-  float: right;
-  margin: 10px 0;
-  padding: 10px 28px;
-  outline: none;
-  border: 0px solid transparent;
-  border-radius: 30px;
-  color: #fffff0;
-  background-color: #d0ad44;
-}
-
-/* ----- 撰寫文章 ----- */
-.FbW-X {
-  background-image: url("../images/Fb08.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  width: 100%;
-  position: relative;
-}
-.FbW-X .FbW-overlay-X {
-  /* 發文區的 form */
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X {
-  padding: 50px 20px;
-  max-width: 792px;
-  margin: 0 auto;
-  color: #fffff0;
-  /* 標題 */
-  /* 內文 */
-  /* 預覽圖 */
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte {
-  position: relative;
-  display: flex;
-  align-items: center;
-  box-sizing: border-box;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte label {
-  display: flex;
-  align-items: center;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte label span:first-child {
-  font-size: 32px;
-  font-weight: 500;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte label span:last-child {
-  font-size: 14px;
-  font-weight: normal;
-  margin-left: 20px;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte select {
-  margin-left: auto;
-  font-size: 14px;
-  cursor: pointer;
-  outline: none;
-  border: 0px solid transparent;
-  padding: 10px 28px;
-  padding-left: 20px;
-  padding-right: 32px;
-  border-radius: 30px;
-  color: #fffff0;
-  background-color: #d0ad44;
-  -webkit-appearance: none;
-  /* 隱藏箭頭 */
-  -moz-appearance: none;
-  /* 隱藏箭頭 */
-  appearance: none;
-  /* 隱藏箭頭 */
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte select option {
-  background-color: #fff;
-  color: #5b774a;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X .FbW-postTilte::after {
-  content: "▼";
-  /* 使用不同的箭頭符號 */
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 15px;
-  transform: translateY(-50%);
-  pointer-events: none;
-  color: white;
-  font-size: 12px;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X input {
-  display: block;
-  outline: none;
-  color: #5b774a;
-  border: 2px solid #5b774a;
-  border-radius: 5px;
-  margin-top: 16px;
-  margin-bottom: 40px;
-  padding: 0 16px;
-  height: 40px;
-  width: 100%;
-  background-color: #fffff0;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-title-X input::placeholder {
-  color: rgba(0, 0, 0, 0.3);
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X label {
-  display: flex;
-  align-items: center;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X label span:first-child {
-  font-size: 32px;
-  font-weight: 500;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X label span:last-child {
-  font-size: 14px;
-  font-weight: normal;
-  margin-left: 20px;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X .FbW-translate-X {
-  border: 2px solid #5b774a;
-  border-radius: 5px 5px 0 0;
-  margin-top: 16px;
-  padding: 1rem;
-  height: 40px;
-  width: 100%;
-  background-color: #fffff0;
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X .FbW-translate-X a {
-  cursor: pointer;
-  font-size: 20px;
-  color: rgba(0, 0, 0, 0.3);
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X textarea {
-  outline: none;
-  color: #5b774a;
-  border: 2px solid #5b774a;
-  border-top: 0;
-  border-radius: 0 0 5px 5px;
-  margin-bottom: 16px;
-  padding: 10px 16px;
-  height: 200px;
-  width: 100%;
-  background-color: #fffff0;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-content-X textarea::placeholder {
-  color: rgba(0, 0, 0, 0.3);
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X {
-  padding: 1rem;
-  border: 2px solid #5b774a;
-  border-radius: 5px;
-  height: 200px;
-  width: 100%;
-  background-color: #fffff0;
-  box-sizing: border-box;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X div {
-  display: flex;
-  align-items: center;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X div input#FbW-picChoose-X {
-  transform: scale(1.5);
-  cursor: pointer;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X div label {
-  margin-left: 20px;
-  color: #5b774a;
-  font-size: 14px;
-  cursor: pointer;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X .FbW-picture-slider-X {
-  border: 1px solid #5b774a;
-  width: 200px;
-  height: 120px;
-  margin: 1.5rem 0;
-  overflow: hidden;
-}
-.FbW-X .FbW-overlay-X .FbW-wrapper-X .FbW-picture-X .FbW-picture-slider-X img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.FbW-X .FbW-overlay-X button {
-  display: block;
-  margin: 10px auto;
-  padding: 10px 28px;
-  outline: none;
-  border: 0px solid transparent;
-  border-radius: 30px;
-  color: #fffff0;
-  background-color: #d0ad44;
-}
-
->>>>>>> 7e912e05db05de3dcc5e1bc167e6e852d2b8a32c
 * {
   box-sizing: border-box;
   margin: 0;

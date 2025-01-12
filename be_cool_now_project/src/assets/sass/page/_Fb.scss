@@ -191,7 +191,8 @@ main{  //因為不知道要不要拿 main 當最外框+設置底色，所以新�
 .Fb-Atricle-X {
     letter-spacing: 1px;
     color: $Green_1;
-
+    background-color: $Ivory_white;
+    padding: 2rem;
     .Fb-Atricle-title-X {
         font-size: PC_h3($Green_1);
         font-weight: 700;
@@ -250,9 +251,11 @@ main{  //因為不知道要不要拿 main 當最外框+設置底色，所以新�
 
 /* ----- 留言區 ----- */
 .Fb-message-X {
-    margin-top: 100px;
+    // margin-top: 30px;
     margin-bottom: 40px;
     color: $Green_1;
+    background-color: $Ivory_white;
+    padding: 2rem;
 
     .Fb-message-select-X {
         padding: 10px;
@@ -352,6 +355,7 @@ main{  //因為不知道要不要拿 main 當最外框+設置底色，所以新�
                 color: $Green_1;
 
                 textarea {
+                    background-color: $Light_Green;
                     outline: none;
                     border: 0px solid transparent;
                     width: 100%;
@@ -375,6 +379,7 @@ main{  //因為不知道要不要拿 main 當最外框+設置底色，所以新�
                         color: $Error;
                         cursor: pointer;
                         flex-shrink: 0;
+                        font-size: 14px;
                     }
                 }
             }
