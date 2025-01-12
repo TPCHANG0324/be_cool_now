@@ -61,6 +61,7 @@ $font_weight_regular:normal;
     font-weight: $font_weight_regular;
     font-family: $font_family;
     color: $color;
+    z-index: 1;
 }
 
 // 20px 次要內文文字大小(無文字邊框)
