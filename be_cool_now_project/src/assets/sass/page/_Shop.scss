@@ -11,7 +11,16 @@
     width: 100%;
     height: 360px;
     overflow: hidden;
+<<<<<<< HEAD:be_cool_now_project/src/assets/sass/page/_Sp.scss
 }
+=======
+h1{
+
+    @include PC_h1($Ivory_white);
+}
+}
+
+>>>>>>> sunny:be_cool_now_project/src/assets/sass/page/_Shop.scss
 .fliter-section ul{
     display: flex;
     flex-direction: column;
@@ -49,6 +58,7 @@
 .banner_text h4{
     font-size: $h4;
     color:$Green_2;
+    margin-bottom: 12px;
 }
 
 .store_title_S{
@@ -63,12 +73,12 @@
         width: 100%;
         height: 2px;
         background-color: $Gray_1;
-        bottom: 12px;
+        bottom: 2px;
     }
 }
 .store_title_S i{
     color: $Green_2;
-    margin-top: 10px; 
+    // margin-top: 10px; 
 }
 
 .Sp_container_S{
@@ -125,18 +135,19 @@
         // grid-auto-rows: minmax(280px, auto);
     }
 
-    .product-grid_S{
-
+.product-grid_S{
         .product-card_S{
             width: 100%;
             height: 164px;
-            a{
-                text-decoration: none;
-            }
+            margin-bottom: 120px;
+
+       
         }
         .product-box_S{
             position: relative;
             overflow: hidden;
+            font-size: 0;
+            
            
             img{
                 width: 100%;
@@ -145,6 +156,11 @@
                 // border-radius: $pic_radius_20px;
                 margin-bottom: 0;
                 transition: opacity 0.3s ease-in-out;     
+            }
+            &:hover .btn_S {
+                opacity: 1;
+                color: $Ivory_white;
+                
             }
         
         }
@@ -160,41 +176,59 @@
             transition: opacity 0.3s ease-in-out;
             border-radius: 4px;
             
-        }
+        } 
+            .bgr_words_1{
+                background-color: $Green_1;
+                height: 116px;
+                width: 100%;
 
-        .product-box_S:hover .btn_S {
-            opacity: 1; // 顯示按鈕
-        }
-         
+                p{
+                    text-align: center;
+                    font-size: 20px;
+                    padding: 10px;
+                    color:$Ivory_white;
+                }
+            }
 
-        }    
-        
-        .bgr_words_1{
-            background-color: $Green_1;
-            height: 116px;
-            width: 100%;
+            .bgr_words_2{
+                background-color: $Green_2;
+                height: 116px;
+                width: 100%;
+    
+                p{
+                    text-align: center;
+                    font-size: 20px;
+                    padding: 10px;
+                    color:$Ivory_white;
+                }
+            }
+            
+            .pages{
+                border: 1px solid black;
+                width: 300px;
+                height: 48px;
+                
+            }
+            
+            .pages ul{
+                display: flex;
+                align-items: center;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                justify-content: center;
 
-            h4{
-                text-align: center;
+                li{
+                    width: 40;
+                }
+                
             }
-            p{
-                text-align: center;
-                font-size: 20px;
-            }
-        }
-        .bgr_words_2{
-            background-color: $Green_2;
-            height: 116px;
-            width: 100%;
 
-            h4{
-                text-align: center;
-            }
-            p{
-                text-align: center;
-                font-size: 20px;
-            }
-        }
+            
+           
+
+}
+       
         
         
         
